@@ -1,0 +1,4 @@
+primary_email,first_name,last_name,org_unit,personal_email,password,created_at,status,message
+testuser1@kusoed.edu.np,Test,User1,/Students,test1@gmail.com,Ui25LIzc5awacH6i,2026-02-01 13:16:48,CREATED,ok
+testuser2@kusoed.edu.np,Test,User2,/Students,test2@gmail.com,Dz8amEYSV5jxETn2,2026-02-01 13:16:52,CREATED,ok
+anamol@kusoed.edu.np,Anamol,Test,/Students,anamolsapkota@gmail.com,Ig5VOrqu3vZP3NGn,2026-02-01 13:38:24,CREATED,ok

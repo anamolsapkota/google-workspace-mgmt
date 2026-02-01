@@ -1,0 +1,21 @@
+[2026-02-01 13:16:48] ----
+[2026-02-01 13:16:48] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-01 13:16:48] Delegated admin: bhandaribbk@kusoed.edu.np
+[2026-02-01 13:16:48] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 13:16:48] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-01 13:16:48] Got access token.
+[2026-02-01 13:16:48] Reading input CSV: input.csv
+[2026-02-01 13:16:48] Creating: testuser1@kusoed.edu.np (Test User1) OU=/Students personal=test1@gmail.com
+[2026-02-01 13:16:52] Success: testuser1@kusoed.edu.np
+[2026-02-01 13:16:52] Creating: testuser2@kusoed.edu.np (Test User2) OU=/Students personal=test2@gmail.com
+[2026-02-01 13:16:55] Success: testuser2@kusoed.edu.np
+[2026-02-01 13:16:55] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 13:38:23] ----
+[2026-02-01 13:38:23] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-01 13:38:23] Delegated admin: bhandaribbk@kusoed.edu.np
+[2026-02-01 13:38:23] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 13:38:23] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-01 13:38:24] Got access token.
+[2026-02-01 13:38:24] Creating: anamol@kusoed.edu.np (Anamol Test) OU=/Students personal=anamolsapkota@gmail.com
+[2026-02-01 13:38:27] Success: anamol@kusoed.edu.np
+[2026-02-01 13:38:27] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv

@@ -1,0 +1,56 @@
+[2026-02-01 12:50:49] ----
+[2026-02-01 12:50:49] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-01 12:50:49] Delegated admin: bhandaribbk@kusoed.edu.np
+[2026-02-01 12:50:49] Creating user: testuser@kusoed.edu.np
+[2026-02-01 12:50:49] Name: Test User
+[2026-02-01 12:50:49] OU: /Students
+[2026-02-01 12:50:49] Recovery email: anamolsapkota.np@gmail.com
+[2026-02-01 12:50:49] Log: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_user.log
+[2026-02-01 12:50:49] ERROR: Failed to obtain access token. Check DWD scopes + delegated admin + Admin SDK enabled.
+[2026-02-01 12:54:18] ----
+[2026-02-01 12:54:18] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-01 12:54:18] Delegated admin: bhandaribbk@kusoed.edu.np
+[2026-02-01 12:54:18] Creating user: testuser@kusoed.edu.np
+[2026-02-01 12:54:18] Name: Test User
+[2026-02-01 12:54:18] OU: /Students
+[2026-02-01 12:54:18] Recovery email: anamolsapkota.np@gmail.com
+[2026-02-01 12:54:18] Log: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_user.log
+[2026-02-01 12:54:19] Got access token.
+[2026-02-01 12:54:19] Creating user via Directory API...
+[2026-02-01 12:54:19] Create response: {
+  "error": {
+    "code": 400,
+    "message": "Invalid Input: primary_user_email",
+    "errors": [
+      {
+        "message": "Invalid Input: primary_user_email",
+        "domain": "global",
+        "reason": "invalid"
+      }
+    ]
+  }
+}
+[2026-02-01 12:54:19] ERROR: User creation failed.
+[2026-02-01 13:00:56] ----
+[2026-02-01 13:00:56] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-01 13:00:56] Delegated admin: bhandaribbk@kusoed.edu.np
+[2026-02-01 13:00:56] Creating user: testuser@kusoed.edu.np
+[2026-02-01 13:00:56] Name: Test User
+[2026-02-01 13:00:56] OU: /Students
+[2026-02-01 13:00:56] Recovery email: anamolsapkota.np@gmail.com
+[2026-02-01 13:00:56] Log: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_user.log
+[2026-02-01 13:00:56] Got access token.
+[2026-02-01 13:00:56] Creating user via Directory API...
+[2026-02-01 13:00:56] Request body: {
+  "primaryEmail": "testuser@kusoed.edu.np",
+  "name": {
+    "givenName": "Test",
+    "familyName": "User"
+  },
+  "password": "TempPassword11",
+  "changePasswordAtNextLogin": true,
+  "orgUnitPath": "/Students",
+  "recoveryEmail": "anamolsapkota.np@gmail.com"
+}
+[2026-02-01 13:01:00] User created.
+[2026-02-01 13:01:00] Done.
