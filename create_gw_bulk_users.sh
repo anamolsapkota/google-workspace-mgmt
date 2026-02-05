@@ -1,37 +1,21 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Create Google Workspace users via Admin SDK Directory API using
-# a service account with Domain-Wide Delegation (DWD).
+# Create Google Workspace users via Admin SDK Directory API using a Service Account (DWD),
+# generate a TEMP password, force change at next login, write results to CSV,
+# and send onboarding email via Gmail SMTP (credentials from .env).
 #
-# Supports:
-#  1) Single user creation via args
-#  2) Bulk creation via input CSV
-#
-# Input fields required per user:
-#   primary_email, first_name, last_name, org_unit, personal_email
-#
-# Password is auto-generated and recorded in users_created.csv (same directory).
-#
-# Usage (single):
-# ./create_gw_users.sh \
-#   --admin "delegated-admin@yourdomain.com" \
-#   --email "new.user@yourdomain.com" \
-#   --first "First" \
-#   --last "Last" \
-#   --ou "/Students" \
-#   --personal "personal@gmail.com"
-#
-# Usage (bulk from CSV):
-# ./create_gw_users.sh --admin "delegated-admin@yourdomain.com" --csv "input.csv"
-#
-# input.csv header must be:
+# CSV input header must be:
 # primary_email,first_name,last_name,org_unit,personal_email
 
 CHANGE_PW_AT_NEXT_LOGIN="${CHANGE_PW_AT_NEXT_LOGIN:-true}" # true/false
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SA_JSON="${SA_JSON:-${SCRIPT_DIR}/service_account.json}"
+ENV_FILE="${ENV_FILE:-${SCRIPT_DIR}/.env}"
+TEMPLATE_DIR="${SCRIPT_DIR}/email_templates"
+EMAIL_TEMPLATE="${EMAIL_TEMPLATE:-${TEMPLATE_DIR}/kusoed_account_created.txt}"
+
 LOG_FILE="${SCRIPT_DIR}/gw_create_users.log"
 OUT_CSV="${OUT_CSV:-${SCRIPT_DIR}/users_created.csv}"
 
@@ -46,6 +30,7 @@ need curl
 need awk
 need sed
 need tr
+need mktemp
 
 sanitize_trim() { printf '%s' "$1" | tr -d '\r' | xargs; }
 sanitize_keep_spaces() { printf '%s' "$1" | tr -d '\r'; }
@@ -59,10 +44,17 @@ Usage:
   Bulk:
     $0 --admin ADMIN --csv input.csv
 
-Notes:
-  - Uses service_account.json in: ${SCRIPT_DIR}
-  - Logs to: ${LOG_FILE}
-  - Writes/updates output CSV: ${OUT_CSV}
+Required CSV header:
+  primary_email,first_name,last_name,org_unit,personal_email
+
+Files expected in: ${SCRIPT_DIR}
+  - service_account.json
+  - .env
+  - email_templates/kusoed_account_created.txt
+
+Outputs:
+  - Log: ${LOG_FILE}
+  - CSV: ${OUT_CSV}
 EOF
 }
 
@@ -92,22 +84,39 @@ while [[ $# -gt 0 ]]; do
 done
 
 [[ -n "${DELEGATED_ADMIN}" ]] || die "--admin is required"
-
 [[ -f "${SA_JSON}" ]] || die "Service account JSON not found at: ${SA_JSON}"
+[[ -f "${ENV_FILE}" ]] || die ".env not found at: ${ENV_FILE}"
+[[ -f "${EMAIL_TEMPLATE}" ]] || die "Email template not found at: ${EMAIL_TEMPLATE}"
+
+# Load .env (simple KEY=VALUE lines)
+set -a
+# shellcheck disable=SC1090
+source "${ENV_FILE}"
+set +a
+
+: "${SMTP_HOST:?Missing SMTP_HOST in .env}"
+: "${SMTP_PORT:?Missing SMTP_PORT in .env}"   # 465 recommended
+: "${SMTP_USER:?Missing SMTP_USER in .env}"
+: "${SMTP_PASS:?Missing SMTP_PASS in .env}"
+: "${SMTP_FROM:?Missing SMTP_FROM in .env}"
 
 CLIENT_EMAIL="$(jq -r '.client_email' "${SA_JSON}")"
 TOKEN_URI="$(jq -r '.token_uri' "${SA_JSON}")"
 PRIVATE_KEY="$(jq -r '.private_key' "${SA_JSON}")"
+SA_CLIENT_ID="$(jq -r '.client_id' "${SA_JSON}")"
 
 [[ -n "${CLIENT_EMAIL}" && "${CLIENT_EMAIL}" != "null" ]] || die "client_email missing in SA JSON"
 [[ -n "${TOKEN_URI}" && "${TOKEN_URI}" != "null" ]] || die "token_uri missing in SA JSON"
 [[ -n "${PRIVATE_KEY}" && "${PRIVATE_KEY}" != "null" ]] || die "private_key missing in SA JSON"
+[[ -n "${SA_CLIENT_ID}" && "${SA_CLIENT_ID}" != "null" ]] || die "client_id missing in SA JSON"
 
+# Directory scope only
 SCOPE="https://www.googleapis.com/auth/admin.directory.user"
 
 b64url() { openssl base64 -e -A | tr '+/' '-_' | tr -d '='; }
 
 get_access_token() {
+  local sub_user="$1"
   local now exp header payload unsigned sig jwt resp token err desc
   now="$(date +%s)"
   exp="$((now + 3600))"
@@ -117,7 +126,7 @@ get_access_token() {
     --arg iss "${CLIENT_EMAIL}" \
     --arg scope "${SCOPE}" \
     --arg aud "${TOKEN_URI}" \
-    --arg sub "${DELEGATED_ADMIN}" \
+    --arg sub "${sub_user}" \
     --argjson exp "${exp}" \
     --argjson iat "${now}" \
     '{iss:$iss, scope:$scope, aud:$aud, exp:$exp, iat:$iat, sub:$sub}')"
@@ -142,23 +151,23 @@ get_access_token() {
     err="$(printf '%s' "${resp}" | jq -r '.error // empty')"
     desc="$(printf '%s' "${resp}" | jq -r '.error_description // empty')"
     echo "[$(ts)] Token response: ${resp}"
-    die "Failed to obtain access token. error='${err}' desc='${desc}'"
+    echo "[$(ts)] Authorize this client_id in Admin Console DWD: ${SA_CLIENT_ID}"
+    echo "[$(ts)] Requested scopes: ${SCOPE}"
+    die "Failed to obtain access token for sub='${sub_user}'. error='${err}' desc='${desc}'"
   fi
 
   printf '%s' "${token}"
 }
 
-# --- CSV helpers (simple + robust for commas-free fields) ---
-# We assume fields do NOT contain commas. (Typical for emails + OU paths + names.)
-csv_header='primary_email,first_name,last_name,org_unit,personal_email,password,created_at,status,message'
+# --- CSV (upsert) ---
+csv_header='primary_email,first_name,last_name,org_unit,personal_email,temp_password,created_at,status,message'
 
 ensure_out_csv() {
   if [[ ! -f "${OUT_CSV}" ]]; then
     echo "${csv_header}" > "${OUT_CSV}"
   else
-    # If file exists but header differs, keep it but ensure it has a header.
     head -n 1 "${OUT_CSV}" | grep -q '^primary_email,' || {
-      tmp="$(mktemp)"
+      local tmp; tmp="$(mktemp)"
       echo "${csv_header}" > "${tmp}"
       cat "${OUT_CSV}" >> "${tmp}"
       mv "${tmp}" "${OUT_CSV}"
@@ -167,7 +176,6 @@ ensure_out_csv() {
 }
 
 escape_csv_field() {
-  # Minimal CSV escaping: wrap in quotes if contains quote or comma; escape quotes by doubling
   local s="$1"
   if [[ "$s" == *'"'* ]]; then s="${s//\"/\"\"}"; fi
   if [[ "$s" == *','* || "$s" == *'"'* || "$s" == *$'\n'* ]]; then
@@ -178,27 +186,21 @@ escape_csv_field() {
 }
 
 upsert_out_csv_row() {
-  local email="$1" first="$2" last="$3" ou="$4" personal="$5" password="$6" created_at="$7" status="$8" message="$9"
+  local email="$1" first="$2" last="$3" ou="$4" personal="$5" pass="$6" created_at="$7" status="$8" message="$9"
 
   ensure_out_csv
+  local tmp; tmp="$(mktemp)"
 
-  local tmp
-  tmp="$(mktemp)"
-
-  # Write header
   head -n 1 "${OUT_CSV}" > "${tmp}"
-
-  # Rewrite existing rows excluding matching primary_email
   awk -F',' -v target="${email}" 'NR==1{next} $1!=target {print}' "${OUT_CSV}" >> "${tmp}"
 
-  # Append updated/new row
   printf "%s,%s,%s,%s,%s,%s,%s,%s,%s\n" \
     "$(escape_csv_field "${email}")" \
     "$(escape_csv_field "${first}")" \
     "$(escape_csv_field "${last}")" \
     "$(escape_csv_field "${ou}")" \
     "$(escape_csv_field "${personal}")" \
-    "$(escape_csv_field "${password}")" \
+    "$(escape_csv_field "${pass}")" \
     "$(escape_csv_field "${created_at}")" \
     "$(escape_csv_field "${status}")" \
     "$(escape_csv_field "${message}")" \
@@ -207,10 +209,8 @@ upsert_out_csv_row() {
   mv "${tmp}" "${OUT_CSV}"
 }
 
-# --- password generator ---
+# --- temp password generator ---
 gen_password() {
-  # 16 chars, includes upper/lower/digits, avoids special chars that sometimes cause policy issues.
-  # Ensures at least one uppercase, one lowercase, one digit.
   local upper lower digit rest
   upper="$(LC_ALL=C tr -dc 'A-Z' </dev/urandom | head -c 1)"
   lower="$(LC_ALL=C tr -dc 'a-z' </dev/urandom | head -c 1)"
@@ -224,7 +224,6 @@ create_user_api() {
   local email="$2" first="$3" last="$4" ou="$5" personal="$6" password="$7"
 
   local create_body create_resp
-
   create_body="$(jq -n \
     --arg primaryEmail "${email}" \
     --arg givenName "${first}" \
@@ -251,7 +250,6 @@ create_user_api() {
   )"
 
   if printf '%s' "${create_resp}" | jq -e '.error' >/dev/null 2>&1; then
-    # Return error JSON
     printf '%s' "${create_resp}"
     return 1
   fi
@@ -260,11 +258,56 @@ create_user_api() {
   return 0
 }
 
+make_signin_link() {
+  local primary_email="$1"
+  printf 'https://accounts.google.com/AccountChooser?Email=%s&continue=https://mail.google.com/\n' "${primary_email}"
+}
+
+render_template() {
+  local first="$1" last="$2" primary="$3" signin_link="$4" temp_password="$5"
+  sed \
+    -e "s/{{FIRST_NAME}}/${first//\//\\/}/g" \
+    -e "s/{{LAST_NAME}}/${last//\//\\/}/g" \
+    -e "s/{{PRIMARY_EMAIL}}/${primary//\//\\/}/g" \
+    -e "s#{{SIGNIN_LINK}}#${signin_link}#g" \
+    -e "s/{{TEMP_PASSWORD}}/${temp_password//\//\\/}/g" \
+    "${EMAIL_TEMPLATE}"
+}
+
+smtp_send_mail() {
+  local to_email="$1"
+  local subject="$2"
+  local body="$3"
+
+  local msg_file
+  msg_file="$(mktemp)"
+  chmod 600 "${msg_file}"
+
+  {
+    echo "From: ${SMTP_FROM}"
+    echo "To: ${to_email}"
+    echo "Subject: ${subject}"
+    echo "MIME-Version: 1.0"
+    echo "Content-Type: text/plain; charset=UTF-8"
+    echo
+    printf '%s\n' "${body}"
+  } > "${msg_file}"
+
+  curl -sS --ssl-reqd \
+    --url "smtps://${SMTP_HOST}:${SMTP_PORT}" \
+    --user "${SMTP_USER}:${SMTP_PASS}" \
+    --mail-from "${SMTP_USER}" \
+    --mail-rcpt "${to_email}" \
+    --upload-file "${msg_file}" >/dev/null
+
+  rm -f "${msg_file}"
+}
+
 process_one_user() {
-  local access_token="$1"
+  local dir_token="$1"
   local email_raw="$2" first_raw="$3" last_raw="$4" ou_raw="$5" personal_raw="$6"
 
-  local email first last ou personal password created_at status message resp
+  local email first last ou personal temp_pass created_at status message resp rendered subject body signin_link
 
   email="$(sanitize_trim "${email_raw}")"
   first="$(sanitize_keep_spaces "${first_raw}")"
@@ -278,33 +321,49 @@ process_one_user() {
   [[ -n "${ou}" ]] || die "Missing org_unit for ${email}"
   [[ -n "${personal}" ]] || die "Missing personal_email for ${email}"
 
-  password="$(gen_password)"
+  temp_pass="$(gen_password)"
   created_at="$(date '+%Y-%m-%d %H:%M:%S')"
 
   echo "[$(ts)] Creating: ${email} (${first} ${last}) OU=${ou} personal=${personal}"
 
-  if resp="$(create_user_api "${access_token}" "${email}" "${first}" "${last}" "${ou}" "${personal}" "${password}")"; then
+  if resp="$(create_user_api "${dir_token}" "${email}" "${first}" "${last}" "${ou}" "${personal}" "${temp_pass}")"; then
     status="CREATED"
     message="ok"
     echo "[$(ts)] Success: ${email}"
+
+    signin_link="$(make_signin_link "${email}")"
+    rendered="$(render_template "${first}" "${last}" "${email}" "${signin_link}" "${temp_pass}")"
+    subject="$(printf '%s\n' "${rendered}" | awk -F': ' 'tolower($1)=="subject"{print $2; exit}')"
+    [[ -n "${subject}" ]] || subject="KUSOED – Google Workspace Account Access"
+    body="$(printf '%s\n' "${rendered}" | awk 'tolower($1)!="subject:"{print}')"
+
+    if smtp_send_mail "${personal}" "${subject}" "${body}"; then
+      echo "[$(ts)] Onboarding email sent to: ${personal}"
+    else
+      echo "[$(ts)] WARNING: Failed to send onboarding email to: ${personal}"
+      message="ok (email failed)"
+    fi
   else
     status="FAILED"
-    # compact error message
     message="$(printf '%s' "${resp}" | jq -r '.error.message // "unknown error"')"
     echo "[$(ts)] Failed: ${email} :: ${message}"
   fi
 
-  upsert_out_csv_row "${email}" "${first}" "${last}" "${ou}" "${personal}" "${password}" "${created_at}" "${status}" "${message}"
+  upsert_out_csv_row "${email}" "${first}" "${last}" "${ou}" "${personal}" "${temp_pass}" "${created_at}" "${status}" "${message}"
 }
 
 echo "[$(ts)] ----"
 echo "[$(ts)] SA JSON: ${SA_JSON}"
-echo "[$(ts)] Delegated admin: ${DELEGATED_ADMIN}"
+echo "[$(ts)] Service account client_id: ${SA_CLIENT_ID}"
+echo "[$(ts)] Delegated admin (Directory): ${DELEGATED_ADMIN}"
+echo "[$(ts)] SMTP From: ${SMTP_FROM}"
+echo "[$(ts)] SMTP User: ${SMTP_USER}"
+echo "[$(ts)] Template: ${EMAIL_TEMPLATE}"
 echo "[$(ts)] Output CSV: ${OUT_CSV}"
 echo "[$(ts)] Log file: ${LOG_FILE}"
 
-ACCESS_TOKEN="$(get_access_token)"
-echo "[$(ts)] Got access token."
+DIR_TOKEN="$(get_access_token "${DELEGATED_ADMIN}")"
+echo "[$(ts)] Got Directory token."
 
 ensure_out_csv
 
@@ -315,7 +374,7 @@ if [[ "${MODE}" == "single" ]]; then
   [[ -n "${OU_PATH}" ]] || die "--ou is required for single mode"
   [[ -n "${PERSONAL_EMAIL}" ]] || die "--personal is required for single mode"
 
-  process_one_user "${ACCESS_TOKEN}" "${PRIMARY_EMAIL}" "${FIRST_NAME}" "${LAST_NAME}" "${OU_PATH}" "${PERSONAL_EMAIL}"
+  process_one_user "${DIR_TOKEN}" "${PRIMARY_EMAIL}" "${FIRST_NAME}" "${LAST_NAME}" "${OU_PATH}" "${PERSONAL_EMAIL}"
   echo "[$(ts)] Done. CSV updated: ${OUT_CSV}"
   exit 0
 fi
@@ -326,17 +385,13 @@ if [[ "${MODE}" == "csv" ]]; then
 
   echo "[$(ts)] Reading input CSV: ${IN_CSV}"
 
-  # Validate header
   header="$(head -n 1 "${IN_CSV}" | tr -d '\r')"
   expected="primary_email,first_name,last_name,org_unit,personal_email"
   [[ "${header}" == "${expected}" ]] || die "Input CSV header must be exactly: ${expected}"
 
-  # Read lines (skip header)
-  # NOTE: assumes no commas inside fields
   tail -n +2 "${IN_CSV}" | while IFS=',' read -r c_email c_first c_last c_ou c_personal; do
-    # skip empty lines
     [[ -n "$(printf '%s' "${c_email}${c_first}${c_last}${c_ou}${c_personal}" | tr -d '[:space:]')" ]] || continue
-    process_one_user "${ACCESS_TOKEN}" "${c_email}" "${c_first}" "${c_last}" "${c_ou}" "${c_personal}"
+    process_one_user "${DIR_TOKEN}" "${c_email}" "${c_first}" "${c_last}" "${c_ou}" "${c_personal}"
   done
 
   echo "[$(ts)] Done. CSV updated: ${OUT_CSV}"

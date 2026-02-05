@@ -1,0 +1,31 @@
+Subject: KUSOED – Google Workspace Account Access
+
+Dear {{FIRST_NAME}} {{LAST_NAME}},
+
+Welcome to KUSOED! Your Google Workspace account has been successfully created.
+
+Account Details:
+- Email: {{PRIMARY_EMAIL}}
+- Temporary Password: {{TEMP_PASSWORD}}
+
+IMPORTANT: You will be required to change this password when you first log in.
+
+Accessing your Google Workspace account:
+1. Click here: https://mail.google.com/a/kusoed.edu.np
+2. Enter your email address: {{PRIMARY_EMAIL}}
+3. Enter the temporary password provided above
+4. You will be prompted to create a new, secure password
+
+Accessing the Learning Management System (LMS - Moodle)
+You can use the same organizational email credentials to access the KUSOED Learning Management System (Moodle).
+LMS URL: https://kusoede.edu.np
+You may log in using either of the following methods:
+1. Login with Google using your organizational email ({{PRIMARY_EMAIL}}) (recommended), OR
+2. Log in using your email and password (same credentials as Google Workspace)
+
+Please keep this information secure and do not share your password with anyone.
+
+If you have any questions or need assistance, please contact our support team.
+
+Best regards,
+KUSOED IT Team

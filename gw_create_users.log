@@ -19,3 +19,697 @@
 [2026-02-01 13:38:24] Creating: anamol@kusoed.edu.np (Anamol Test) OU=/Students personal=anamolsapkota@gmail.com
 [2026-02-01 13:38:27] Success: anamol@kusoed.edu.np
 [2026-02-01 13:38:27] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 13:55:29] ----
+[2026-02-01 13:55:29] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-01 13:55:29] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-01 13:55:29] Sender user (Gmail): it-support@kusoed.edu.np
+[2026-02-01 13:55:29] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-01 13:55:29] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 13:55:29] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-01 13:55:29] ERROR: Failed to obtain access token for sub='bhandaribbk@kusoed.edu.np'. error='unauthorized_client' desc='Client is unauthorized to retrieve access tokens using this method, or client not authorized for any of the scopes requested.'
+[2026-02-01 14:01:30] ----
+[2026-02-01 14:01:30] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-01 14:01:30] Service account client_id: 110970719416941316987
+[2026-02-01 14:01:30] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-01 14:01:30] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-01 14:01:30] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-01 14:01:30] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-01 14:01:30] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 14:01:30] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-01 14:01:31] Got Directory token.
+[2026-02-01 14:01:31] Creating: new.user@kusoed.edu.np (New User) OU=/Students personal=anamolsapkota@gmail.com
+[2026-02-01 14:01:35] Success: new.user@kusoed.edu.np
+[2026-02-01 14:01:39] Onboarding email sent to: anamolsapkota@gmail.com
+[2026-02-01 14:01:39] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 14:10:07] ----
+[2026-02-01 14:10:07] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-01 14:10:07] Service account client_id: 110970719416941316987
+[2026-02-01 14:10:07] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-01 14:10:07] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-01 14:10:07] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-01 14:10:07] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-01 14:10:07] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 14:10:07] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-01 14:10:08] Got Directory token.
+[2026-02-01 14:10:08] Creating: new.user@kusoed.edu.np (New User) OU=/Students personal=anamolsapkota@gmail.com
+[2026-02-01 14:10:09] Failed: new.user@kusoed.edu.np :: Entity already exists.
+[2026-02-01 14:10:09] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 14:10:33] ----
+[2026-02-01 14:10:33] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-01 14:10:33] Service account client_id: 110970719416941316987
+[2026-02-01 14:10:33] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-01 14:10:33] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-01 14:10:33] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-01 14:10:33] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-01 14:10:33] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 14:10:33] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-01 14:10:33] Got Directory token.
+[2026-02-01 14:10:33] Creating: new.user1@kusoed.edu.np (New User) OU=/Students personal=anamolsapkota@gmail.com
+[2026-02-01 14:10:36] Success: new.user1@kusoed.edu.np
+[2026-02-01 14:10:40] Onboarding email sent to: anamolsapkota@gmail.com
+[2026-02-01 14:10:40] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 14:21:18] ----
+[2026-02-01 14:21:18] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-01 14:21:18] Service account client_id: 110970719416941316987
+[2026-02-01 14:21:18] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-01 14:21:18] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-01 14:21:18] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-01 14:21:18] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-01 14:21:18] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-01 14:21:18] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-01 14:21:19] Got Directory token.
+[2026-02-01 14:21:19] Creating: new.user2@kusoed.edu.np (New1 User1) OU=/Students personal=anamolsapkota@gmail.com
+[2026-02-01 14:21:23] Success: new.user2@kusoed.edu.np
+[2026-02-01 14:21:26] Onboarding email sent to: anamolsapkota@gmail.com
+[2026-02-01 14:21:26] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-03 14:38:43] ----
+[2026-02-03 14:38:43] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-03 14:38:43] Service account client_id: 110970719416941316987
+[2026-02-03 14:38:43] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-03 14:38:43] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-03 14:38:43] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-03 14:38:43] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-03 14:38:43] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-03 14:38:43] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-03 14:38:44] Got Directory token.
+[2026-02-03 14:38:44] Creating: anamol@kusoed.edu.np (Anamol Test) OU=/Students personal=anamolsapkota@gmail.com
+[2026-02-03 14:38:47] Success: anamol@kusoed.edu.np
+[2026-02-03 14:38:51] Onboarding email sent to: anamolsapkota@gmail.com
+[2026-02-03 14:38:51] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-03 18:38:39] ----
+[2026-02-03 18:38:39] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-03 18:38:39] Service account client_id: 110970719416941316987
+[2026-02-03 18:38:39] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-03 18:38:39] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-03 18:38:39] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-03 18:38:39] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-03 18:38:39] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-03 18:38:39] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-03 18:38:40] Got Directory token.
+[2026-02-03 18:38:40] Creating: anamol@kusoed.edu.np (Anamol Test) OU=/Students personal=anamolsapkota@gmail.com
+[2026-02-03 18:38:43] Success: anamol@kusoed.edu.np
+[2026-02-03 18:38:47] Onboarding email sent to: anamolsapkota@gmail.com
+[2026-02-03 18:38:47] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-03 18:43:39] ----
+[2026-02-03 18:43:39] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-03 18:43:39] Service account client_id: 110970719416941316987
+[2026-02-03 18:43:39] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-03 18:43:39] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-03 18:43:39] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-03 18:43:39] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-03 18:43:39] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-03 18:43:39] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-03 18:43:39] Got Directory token.
+[2026-02-03 18:43:39] Reading input CSV: input.csv
+[2026-02-03 18:43:39] Creating: krishna_mphilds2026@kusoed.edu.np (Krishna Ghale) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=krishnaghale15@gmail.com
+[2026-02-03 18:43:42] Success: krishna_mphilds2026@kusoed.edu.np
+[2026-02-03 18:43:46] Onboarding email sent to: krishnaghale15@gmail.com
+[2026-02-03 18:43:46] Creating: ram_mphilds2026@kusoed.edu.np (Ram Sharan Gurung) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=rubengurung3@gmail.com
+[2026-02-03 18:43:49] Success: ram_mphilds2026@kusoed.edu.np
+[2026-02-03 18:43:52] Onboarding email sent to: rubengurung3@gmail.com
+[2026-02-03 18:43:52] Creating: man_mphilds2026@kusoed.edu.np (Man Bahadur Kunwar) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=mbk.nepal@gmail.com
+[2026-02-03 18:43:55] Success: man_mphilds2026@kusoed.edu.np
+[2026-02-03 18:43:58] Onboarding email sent to: mbk.nepal@gmail.com
+[2026-02-03 18:43:58] Creating: shak_mphilds2026@kusoed.edu.np (Shak Bahadur Budhathoki) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=shakbahadur.magar@gmail.com
+[2026-02-03 18:44:01] Success: shak_mphilds2026@kusoed.edu.np
+[2026-02-03 18:44:05] Onboarding email sent to: shakbahadur.magar@gmail.com
+[2026-02-03 18:44:05] Creating: gita_mphilds2026@kusoed.edu.np (Gita Samba Limbu) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=gitalimbu@gmail.com
+[2026-02-03 18:44:08] Success: gita_mphilds2026@kusoed.edu.np
+[2026-02-03 18:44:11] Onboarding email sent to: gitalimbu@gmail.com
+[2026-02-03 18:44:11] Creating: rewati_mphilds2026@kusoed.edu.np (Rewati Prasad Parajuli) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=rewati.parajuli@gmail.com
+[2026-02-03 18:44:14] Success: rewati_mphilds2026@kusoed.edu.np
+[2026-02-03 18:44:18] Onboarding email sent to: rewati.parajuli@gmail.com
+[2026-02-03 18:44:18] Creating: ashmita_mphilds2026@kusoed.edu.np (Ashmita Ojha) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=ashmita1121@gmail.com
+[2026-02-03 18:44:21] Success: ashmita_mphilds2026@kusoed.edu.np
+[2026-02-03 18:44:24] Onboarding email sent to: ashmita1121@gmail.com
+[2026-02-03 18:44:24] Creating: punita_mphilds2026@kusoed.edu.np (Punita Chaudhari) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=punitadang@gmail.com
+[2026-02-03 18:44:27] Success: punita_mphilds2026@kusoed.edu.np
+[2026-02-03 18:44:31] Onboarding email sent to: punitadang@gmail.com
+[2026-02-03 18:44:31] Creating: kumar_mphilds2026@kusoed.edu.np (Kumar Prasad Khatiwada) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=K.khatiwada014@gmail.com
+[2026-02-03 18:44:34] Success: kumar_mphilds2026@kusoed.edu.np
+[2026-02-03 18:44:37] Onboarding email sent to: K.khatiwada014@gmail.com
+[2026-02-03 18:44:37] Creating: nickesh_mphilds2026@kusoed.edu.np (Nickesh Kumar Sah) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=nickesh.shah2020@gmail.com
+[2026-02-03 18:44:40] Success: nickesh_mphilds2026@kusoed.edu.np
+[2026-02-03 18:44:43] Onboarding email sent to: nickesh.shah2020@gmail.com
+[2026-02-03 18:44:43] Creating: narayan_mphilds2026@kusoed.edu.np (Narayan Kumar Shrestha) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=info@narayankumarshrestha.com.np
+[2026-02-03 18:44:46] Success: narayan_mphilds2026@kusoed.edu.np
+[2026-02-03 18:44:49] Onboarding email sent to: info@narayankumarshrestha.com.np
+[2026-02-03 18:44:49] Creating: pasma_mphilds2026@kusoed.edu.np (Pasma Dahal) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=pasmadahal@live.com
+[2026-02-03 18:44:52] Success: pasma_mphilds2026@kusoed.edu.np
+[2026-02-03 18:44:56] Onboarding email sent to: pasmadahal@live.com
+[2026-02-03 18:44:56] Creating: lal_mphilds2026@kusoed.edu.np (Lal Bahadur Khadka) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=lbkhadka2005@gmail.com
+[2026-02-03 18:44:59] Success: lal_mphilds2026@kusoed.edu.np
+[2026-02-03 18:45:02] Onboarding email sent to: lbkhadka2005@gmail.com
+[2026-02-03 18:45:02] Creating: niva_mphilds2026@kusoed.edu.np (NIVA SHAKYA) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=shakyaniva25@gmail.com
+[2026-02-03 18:45:05] Success: niva_mphilds2026@kusoed.edu.np
+[2026-02-03 18:45:09] Onboarding email sent to: shakyaniva25@gmail.com
+[2026-02-03 18:45:09] Creating: dinesh_mphilds2026@kusoed.edu.np (Dinesh Bhandari) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=diptinbro@gmail.com
+[2026-02-03 18:45:12] Success: dinesh_mphilds2026@kusoed.edu.np
+[2026-02-03 18:45:16] Onboarding email sent to: diptinbro@gmail.com
+[2026-02-03 18:45:16] Creating: sanil_mphilds2026@kusoed.edu.np (Sanil Shrestha) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=sanil.4281222@gmail.com
+[2026-02-03 18:45:19] Success: sanil_mphilds2026@kusoed.edu.np
+[2026-02-03 18:45:22] Onboarding email sent to: sanil.4281222@gmail.com
+[2026-02-03 18:45:22] Creating: ramesh_mphilds2026@kusoed.edu.np (Ramesh Thing) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=lamaramesh@gmail.com
+[2026-02-03 18:45:25] Success: ramesh_mphilds2026@kusoed.edu.np
+[2026-02-03 18:45:29] Onboarding email sent to: lamaramesh@gmail.com
+[2026-02-03 18:45:29] Creating: bishnu_mphilds2026@kusoed.edu.np (Bishnu Aryal) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=aryalbishnu715@gmail.com
+[2026-02-03 18:45:32] Success: bishnu_mphilds2026@kusoed.edu.np
+[2026-02-03 18:45:35] Onboarding email sent to: aryalbishnu715@gmail.com
+[2026-02-03 18:45:35] Creating: upendra_mphilds2026@kusoed.edu.np (Upendra Man Shrestha) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=upendrashrestha16@gmail.com
+[2026-02-03 18:45:38] Success: upendra_mphilds2026@kusoed.edu.np
+[2026-02-03 18:45:42] Onboarding email sent to: upendrashrestha16@gmail.com
+[2026-02-03 18:45:42] Creating: farida_mphilds2026@kusoed.edu.np (Farida Khan) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=farida.nepal1@gmail.com
+[2026-02-03 18:45:45] Success: farida_mphilds2026@kusoed.edu.np
+[2026-02-03 18:45:49] Onboarding email sent to: farida.nepal1@gmail.com
+[2026-02-03 18:45:49] Creating: sushma_mphilds2026@kusoed.edu.np (Sushma Rai) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=oasurai@gmail.com
+[2026-02-03 18:45:52] Success: sushma_mphilds2026@kusoed.edu.np
+[2026-02-03 18:45:55] Onboarding email sent to: oasurai@gmail.com
+[2026-02-03 18:45:55] Creating: ratan_mphilds2026@kusoed.edu.np (Ratan Bahadur Budhathoki) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=ratannewah@gmail.com
+[2026-02-03 18:45:58] Success: ratan_mphilds2026@kusoed.edu.np
+[2026-02-03 18:46:02] Onboarding email sent to: ratannewah@gmail.com
+[2026-02-03 18:46:02] Creating: prabha_mphilds2026@kusoed.edu.np (Prabha Paudyal) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=prabhapaudyal1994@gmail.com
+[2026-02-03 18:46:04] Success: prabha_mphilds2026@kusoed.edu.np
+[2026-02-03 18:46:08] Onboarding email sent to: prabhapaudyal1994@gmail.com
+[2026-02-03 18:46:08] Creating: kamal_mphilds2026@kusoed.edu.np (Kamal Kumar Rai) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=ittnepal25@gmail.com
+[2026-02-03 18:46:11] Success: kamal_mphilds2026@kusoed.edu.np
+[2026-02-03 18:46:15] Onboarding email sent to: ittnepal25@gmail.com
+[2026-02-03 18:46:15] Creating: bishwas_mphilds2026@kusoed.edu.np (Bishwas Dhakal) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=bishwassdhakal@gmail.com
+[2026-02-03 18:46:17] Success: bishwas_mphilds2026@kusoed.edu.np
+[2026-02-03 18:46:21] Onboarding email sent to: bishwassdhakal@gmail.com
+[2026-02-03 18:46:21] Creating: sapana_mphilds2026@kusoed.edu.np (Sapana Poudel) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=sapnapoudel761@gmail.com
+[2026-02-03 18:46:25] Success: sapana_mphilds2026@kusoed.edu.np
+[2026-02-03 18:46:32] Onboarding email sent to: sapnapoudel761@gmail.com
+[2026-02-03 18:46:32] Creating: anju_mphilecd2026@kusoed.edu.np (Anju Gautam) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=mail.anjugautam@gmail.com
+[2026-02-03 18:46:35] Success: anju_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:46:41] Onboarding email sent to: mail.anjugautam@gmail.com
+[2026-02-03 18:46:41] Creating: roshani_mphilecd2026@kusoed.edu.np (Roshani Paudel) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=roshanipaudel89@gmail.com
+[2026-02-03 18:46:44] Success: roshani_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:46:47] Onboarding email sent to: roshanipaudel89@gmail.com
+[2026-02-03 18:46:47] Creating: uma_mphilecd2026@kusoed.edu.np (Uma Thapa Shrestha) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=utshrestha13@gmail.com
+[2026-02-03 18:46:50] Success: uma_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:46:54] Onboarding email sent to: utshrestha13@gmail.com
+[2026-02-03 18:46:54] Creating: alisha_mphilecd2026@kusoed.edu.np (Alisha Joshi) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=alishajoshi134@gmail.com
+[2026-02-03 18:46:57] Success: alisha_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:47:01] Onboarding email sent to: alishajoshi134@gmail.com
+[2026-02-03 18:47:01] Creating: bina_mphilecd2026@kusoed.edu.np (Bina Dhungana Chapagain) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=binadhunganachapagain@gmail.com
+[2026-02-03 18:47:04] Success: bina_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:47:08] Onboarding email sent to: binadhunganachapagain@gmail.com
+[2026-02-03 18:47:08] Creating: tumala_mphilecd2026@kusoed.edu.np (Tumala Dhungana) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=tumalasilwal@gmail.com
+[2026-02-03 18:47:12] Success: tumala_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:47:15] Onboarding email sent to: tumalasilwal@gmail.com
+[2026-02-03 18:47:15] Creating: reeta_mphilecd2026@kusoed.edu.np (Reeta Khatri) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=294ritu@gmail.com
+[2026-02-03 18:47:18] Success: reeta_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:47:22] Onboarding email sent to: 294ritu@gmail.com
+[2026-02-03 18:47:22] Creating: dipendra_mphilecd2026@kusoed.edu.np (Dipendra Pun Magar) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=nayanepal303@gmail.com
+[2026-02-03 18:47:25] Success: dipendra_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:47:28] Onboarding email sent to: nayanepal303@gmail.com
+[2026-02-03 18:47:28] Creating: anushma_mphilecd2026@kusoed.edu.np (Anushma Kadel) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=anushmakadel@gmail.com
+[2026-02-03 18:47:31] Success: anushma_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:47:35] Onboarding email sent to: anushmakadel@gmail.com
+[2026-02-03 18:47:35] Creating: indira_mphilecd2026@kusoed.edu.np (Indira Basnet) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=indirabasnetkc1@gmail.com
+[2026-02-03 18:47:38] Success: indira_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:47:42] Onboarding email sent to: indirabasnetkc1@gmail.com
+[2026-02-03 18:47:42] Creating: sushila_mphilecd2026@kusoed.edu.np (Sushila Shrestha) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=susshela@gmail.com
+[2026-02-03 18:47:45] Success: sushila_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:47:48] Onboarding email sent to: susshela@gmail.com
+[2026-02-03 18:47:48] Creating: saraswati_mphilecd2026@kusoed.edu.np (Saraswati Khadka Thapa) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=saru21k@zohomail.com
+[2026-02-03 18:47:51] Success: saraswati_mphilecd2026@kusoed.edu.np
+[2026-02-03 18:47:55] Onboarding email sent to: saru21k@zohomail.com
+[2026-02-03 18:47:55] Creating: elisha_mphilel2026@kusoed.edu.np (Elisha Shrestha) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=shresthaelisha05@gmail.com
+[2026-02-03 18:47:58] Success: elisha_mphilel2026@kusoed.edu.np
+[2026-02-03 18:48:02] Onboarding email sent to: shresthaelisha05@gmail.com
+[2026-02-03 18:48:02] Creating: anita_mphilel2026@kusoed.edu.np (Anita Bhattarai) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=akarartcenter@gmail.com
+[2026-02-03 18:48:05] Success: anita_mphilel2026@kusoed.edu.np
+[2026-02-03 18:48:09] Onboarding email sent to: akarartcenter@gmail.com
+[2026-02-03 18:48:09] Creating: rajani_mphilel2026@kusoed.edu.np (Rajani K.C.) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=kcrajani86@gmail.com
+[2026-02-03 18:48:12] Success: rajani_mphilel2026@kusoed.edu.np
+[2026-02-03 18:48:16] Onboarding email sent to: kcrajani86@gmail.com
+[2026-02-03 18:48:16] Creating: santosh_mphilel2026@kusoed.edu.np (Santosh Sharma) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=sharmasantosh214@gmail.com
+[2026-02-03 18:48:19] Success: santosh_mphilel2026@kusoed.edu.np
+[2026-02-03 18:48:23] Onboarding email sent to: sharmasantosh214@gmail.com
+[2026-02-03 18:48:23] Creating: lajita_mphilel2026@kusoed.edu.np (Lajita Sharma Dahal) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=lajitasharmadahal@gmail.com
+[2026-02-03 18:48:26] Success: lajita_mphilel2026@kusoed.edu.np
+[2026-02-03 18:48:29] Onboarding email sent to: lajitasharmadahal@gmail.com
+[2026-02-03 18:48:30] Creating: monica_mphilel2026@kusoed.edu.np (Monica Lamichhane) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=dlovelyprecious@gmail.com
+[2026-02-03 18:48:32] Success: monica_mphilel2026@kusoed.edu.np
+[2026-02-03 18:48:36] Onboarding email sent to: dlovelyprecious@gmail.com
+[2026-02-03 18:48:36] Creating: binod_mphilel2026@kusoed.edu.np (BINOD DULAL) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=aayanaahana2@gmail.com
+[2026-02-03 18:48:39] Success: binod_mphilel2026@kusoed.edu.np
+[2026-02-03 18:48:43] Onboarding email sent to: aayanaahana2@gmail.com
+[2026-02-03 18:48:43] Creating: anju_mphilel2026@kusoed.edu.np (Anju Kumari P. Chhetri) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=chhetrianju242@gmail.com
+[2026-02-03 18:48:46] Success: anju_mphilel2026@kusoed.edu.np
+[2026-02-03 18:48:50] Onboarding email sent to: chhetrianju242@gmail.com
+[2026-02-03 18:48:50] Creating: bijay_mphilel2026@kusoed.edu.np (Bijay Shrestha) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=bijay.shrestha.mentor@gmail.com
+[2026-02-03 18:48:53] Success: bijay_mphilel2026@kusoed.edu.np
+[2026-02-03 18:48:58] Onboarding email sent to: bijay.shrestha.mentor@gmail.com
+[2026-02-03 18:48:58] Creating: sunil_mphilel2026@kusoed.edu.np (Sunil Devkota) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=sdevkota2014@gmail.com
+[2026-02-03 18:49:01] Success: sunil_mphilel2026@kusoed.edu.np
+[2026-02-03 18:49:04] Onboarding email sent to: sdevkota2014@gmail.com
+[2026-02-03 18:49:04] Creating: leena_mphilel2026@kusoed.edu.np (LEENA JOSHI) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=leenajoshishrestha@gmail.com
+[2026-02-03 18:49:08] Success: leena_mphilel2026@kusoed.edu.np
+[2026-02-03 18:49:11] Onboarding email sent to: leenajoshishrestha@gmail.com
+[2026-02-03 18:49:11] Creating: sanjeev_mphilel2026@kusoed.edu.np (Sanjeev Bhandari) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=bhandarisan@gmail.com
+[2026-02-03 18:49:14] Success: sanjeev_mphilel2026@kusoed.edu.np
+[2026-02-03 18:49:18] Onboarding email sent to: bhandarisan@gmail.com
+[2026-02-03 18:49:18] Creating: krishna_mphilel2026@kusoed.edu.np (Krishna Lamsal) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=krislamsal71@gmail.com
+[2026-02-03 18:49:21] Success: krishna_mphilel2026@kusoed.edu.np
+[2026-02-03 18:49:25] Onboarding email sent to: krislamsal71@gmail.com
+[2026-02-03 18:49:25] Creating: sundar_mphilel2026@kusoed.edu.np (Sundar Budathoki) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=springhill607@gmail.com
+[2026-02-03 18:49:28] Success: sundar_mphilel2026@kusoed.edu.np
+[2026-02-03 18:49:31] Onboarding email sent to: springhill607@gmail.com
+[2026-02-03 18:49:31] Creating: jaya_mphilel2026@kusoed.edu.np (Jaya Bahadur Shrestha) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=jayabahadurshrestha1@gmail.com
+[2026-02-03 18:49:34] Success: jaya_mphilel2026@kusoed.edu.np
+[2026-02-03 18:49:38] Onboarding email sent to: jayabahadurshrestha1@gmail.com
+[2026-02-03 18:49:38] Creating: bharat_mphilel2026@kusoed.edu.np (Bharat Rai) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=raijasmin355@gmail.com
+[2026-02-03 18:49:41] Success: bharat_mphilel2026@kusoed.edu.np
+[2026-02-03 18:49:44] Onboarding email sent to: raijasmin355@gmail.com
+[2026-02-03 18:49:44] Creating: rishab_mphilel2026@kusoed.edu.np (Rishab Karki) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=rishab.karki.np@gmail.com
+[2026-02-03 18:49:47] Success: rishab_mphilel2026@kusoed.edu.np
+[2026-02-03 18:49:50] Onboarding email sent to: rishab.karki.np@gmail.com
+[2026-02-03 18:49:51] Creating: pravin_mphilel2026@kusoed.edu.np (Pravin Ratna Shakya) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=pravin.ratna.shakya@gmail.com
+[2026-02-03 18:49:54] Success: pravin_mphilel2026@kusoed.edu.np
+[2026-02-03 18:49:57] Onboarding email sent to: pravin.ratna.shakya@gmail.com
+[2026-02-03 18:49:57] Creating: chandra_mphilel2026@kusoed.edu.np (Chandra Kumari Garbuja) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=garbujachandra@gmail.com
+[2026-02-03 18:50:00] Success: chandra_mphilel2026@kusoed.edu.np
+[2026-02-03 18:50:04] Onboarding email sent to: garbujachandra@gmail.com
+[2026-02-03 18:50:04] Creating: nitesh_mphilel2026@kusoed.edu.np (NITESH KUMAR SHAH) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=niteshkumarshah1989@gmail.com
+[2026-02-03 18:50:07] Success: nitesh_mphilel2026@kusoed.edu.np
+[2026-02-03 18:50:11] Onboarding email sent to: niteshkumarshah1989@gmail.com
+[2026-02-03 18:50:11] Creating: rita_mphilel2026@kusoed.edu.np (Rita Tiwari) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=ritaswechha@gmail.com
+[2026-02-03 18:50:14] Success: rita_mphilel2026@kusoed.edu.np
+[2026-02-03 18:50:17] Onboarding email sent to: ritaswechha@gmail.com
+[2026-02-03 18:50:17] Creating: bina_mphilel2026@kusoed.edu.np (Bina Dhakal) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=beenadhakal227@gmail.com
+[2026-02-03 18:50:20] Success: bina_mphilel2026@kusoed.edu.np
+[2026-02-03 18:50:23] Onboarding email sent to: beenadhakal227@gmail.com
+[2026-02-03 18:50:23] Creating: mal_mphilel2026@kusoed.edu.np (MAL BAHADUR K. C. KHATRI) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=mbkc2038@gmail.com
+[2026-02-03 18:50:27] Success: mal_mphilel2026@kusoed.edu.np
+[2026-02-03 18:50:30] Onboarding email sent to: mbkc2038@gmail.com
+[2026-02-03 18:50:30] Creating: samrat_mphilel2026@kusoed.edu.np (Samrat Maskey) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=samratmaskey1@gmail.com
+[2026-02-03 18:50:37] Success: samrat_mphilel2026@kusoed.edu.np
+[2026-02-03 18:50:40] Onboarding email sent to: samratmaskey1@gmail.com
+[2026-02-03 18:50:40] Creating: sandip_mphilel2026@kusoed.edu.np (Sandip Kumar Patel) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=sandipraut432836@gmail.com
+[2026-02-03 18:50:43] Success: sandip_mphilel2026@kusoed.edu.np
+[2026-02-03 18:50:46] Onboarding email sent to: sandipraut432836@gmail.com
+[2026-02-03 18:50:47] Creating: deeksha_mphilel2026@kusoed.edu.np (Deeksha Bhattarai) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=deekshabhattarai@gmail.com
+[2026-02-03 18:50:49] Success: deeksha_mphilel2026@kusoed.edu.np
+[2026-02-03 18:50:53] Onboarding email sent to: deekshabhattarai@gmail.com
+[2026-02-03 18:50:53] Creating: rajib_mphilel2026@kusoed.edu.np (RAJIB Shrestha) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=rawzib@gmail.com
+[2026-02-03 18:50:56] Success: rajib_mphilel2026@kusoed.edu.np
+[2026-02-03 18:50:59] Onboarding email sent to: rawzib@gmail.com
+[2026-02-03 18:50:59] Creating: ramesh_mphilel2026@kusoed.edu.np (Ramesh Shrestha Pradhan) OU=/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch personal=merobuwa24082021@gmail.com
+[2026-02-03 18:51:02] Success: ramesh_mphilel2026@kusoed.edu.np
+[2026-02-03 18:51:06] Onboarding email sent to: merobuwa24082021@gmail.com
+[2026-02-03 18:51:06] Creating: shiv_mphilele2026@kusoed.edu.np (Shiv Raj Paudel) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=srpaudel1989@gmail.com
+[2026-02-03 18:51:09] Success: shiv_mphilele2026@kusoed.edu.np
+[2026-02-03 18:51:12] Onboarding email sent to: srpaudel1989@gmail.com
+[2026-02-03 18:51:12] Creating: tshering_mphilele2026@kusoed.edu.np (TSHERING CHODEN GURUNG) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=chodendolpo@gmail.com
+[2026-02-03 18:51:15] Success: tshering_mphilele2026@kusoed.edu.np
+[2026-02-03 18:51:19] Onboarding email sent to: chodendolpo@gmail.com
+[2026-02-03 18:51:19] Creating: gauree_mphilele2026@kusoed.edu.np (Gauree Gyawali) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=gaurigyawali997@gmail.com
+[2026-02-03 18:51:21] Success: gauree_mphilele2026@kusoed.edu.np
+[2026-02-03 18:51:25] Onboarding email sent to: gaurigyawali997@gmail.com
+[2026-02-03 18:51:25] Creating: ram_mphilele2026@kusoed.edu.np (Ram Prasad Bashyal) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=bashyalram16@gmail.com
+[2026-02-03 18:51:28] Success: ram_mphilele2026@kusoed.edu.np
+[2026-02-03 18:51:31] Onboarding email sent to: bashyalram16@gmail.com
+[2026-02-03 18:51:31] Creating: rajan_mphilele2026@kusoed.edu.np (Rajan Prasad Lamichhane) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=lamichhane.rajan77@gmail.com
+[2026-02-03 18:51:35] Success: rajan_mphilele2026@kusoed.edu.np
+[2026-02-03 18:51:38] Onboarding email sent to: lamichhane.rajan77@gmail.com
+[2026-02-03 18:51:38] Creating: bishnu_mphilele2026@kusoed.edu.np (Bishnu Ban) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=banbishnu43@gmail.com
+[2026-02-03 18:51:41] Success: bishnu_mphilele2026@kusoed.edu.np
+[2026-02-03 18:51:45] Onboarding email sent to: banbishnu43@gmail.com
+[2026-02-03 18:51:45] Creating: bishnu_mphilele2026@kusoed.edu.np (Bishnu Karki) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=bkarki044@gmail.com
+[2026-02-03 18:51:45] Failed: bishnu_mphilele2026@kusoed.edu.np :: Entity already exists.
+[2026-02-03 18:51:45] Creating: rabin_mphilele2026@kusoed.edu.np (Rabin Khadka) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=rabinkhadka545@gmail.com
+[2026-02-03 18:51:48] Success: rabin_mphilele2026@kusoed.edu.np
+[2026-02-03 18:51:52] Onboarding email sent to: rabinkhadka545@gmail.com
+[2026-02-03 18:51:52] Creating: jeevan_mphilele2026@kusoed.edu.np (Jeevan Regmi) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=regmij823@gmail.com
+[2026-02-03 18:51:56] Success: jeevan_mphilele2026@kusoed.edu.np
+[2026-02-03 18:51:59] Onboarding email sent to: regmij823@gmail.com
+[2026-02-03 18:51:59] Creating: aditya_mphilele2026@kusoed.edu.np (Aditya G.C.) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=aditya9848178980@gmail.com
+[2026-02-03 18:52:02] Success: aditya_mphilele2026@kusoed.edu.np
+[2026-02-03 18:52:06] Onboarding email sent to: aditya9848178980@gmail.com
+[2026-02-03 18:52:06] Creating: susmita_mphilele2026@kusoed.edu.np (Susmita Giri) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=susmitagiri1991@gmail.com
+[2026-02-03 18:52:09] Success: susmita_mphilele2026@kusoed.edu.np
+[2026-02-03 18:52:13] Onboarding email sent to: susmitagiri1991@gmail.com
+[2026-02-03 18:52:13] Creating: parmanand_mphilele2026@kusoed.edu.np (Parmanand Bhandari) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=bhandariprama1@gmail.com
+[2026-02-03 18:52:16] Success: parmanand_mphilele2026@kusoed.edu.np
+[2026-02-03 18:52:19] Onboarding email sent to: bhandariprama1@gmail.com
+[2026-02-03 18:52:19] Creating: sabitra_mphilele2026@kusoed.edu.np (Sabitra Bashyal) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=sabitrabashyal@gmail.com
+[2026-02-03 18:52:22] Success: sabitra_mphilele2026@kusoed.edu.np
+[2026-02-03 18:52:26] Onboarding email sent to: sabitrabashyal@gmail.com
+[2026-02-03 18:52:26] Creating: samrat_mphilele2026@kusoed.edu.np (Samrat Suman Guruwacharya) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=gsamrat.sg@gmail.com
+[2026-02-03 18:52:29] Success: samrat_mphilele2026@kusoed.edu.np
+[2026-02-03 18:52:32] Onboarding email sent to: gsamrat.sg@gmail.com
+[2026-02-03 18:52:33] Creating: kamana_mphilele2026@kusoed.edu.np (Kamana Pokhrel) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=kamanapokharel053@gmail.com
+[2026-02-03 18:52:35] Success: kamana_mphilele2026@kusoed.edu.np
+[2026-02-03 18:52:39] Onboarding email sent to: kamanapokharel053@gmail.com
+[2026-02-03 18:52:39] Creating: sabina_mphilele2026@kusoed.edu.np (Sabina Tamang) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=sabinatmg3177@gmail.com
+[2026-02-03 18:52:42] Success: sabina_mphilele2026@kusoed.edu.np
+[2026-02-03 18:52:46] Onboarding email sent to: sabinatmg3177@gmail.com
+[2026-02-03 18:52:46] Creating: luna_mphilele2026@kusoed.edu.np (Luna Koirala) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=lunakoirala12@gmail.com
+[2026-02-03 18:52:49] Success: luna_mphilele2026@kusoed.edu.np
+[2026-02-03 18:52:52] Onboarding email sent to: lunakoirala12@gmail.com
+[2026-02-03 18:52:53] Creating: ishwor_mphilele2026@kusoed.edu.np (Ishwor Prasad Kadel) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=ishwor069@gmail.com
+[2026-02-03 18:52:55] Success: ishwor_mphilele2026@kusoed.edu.np
+[2026-02-03 18:52:59] Onboarding email sent to: ishwor069@gmail.com
+[2026-02-03 18:52:59] Creating: raju_mphilele2026@kusoed.edu.np (Raju Paudel) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=merajupaudel@gmail.com
+[2026-02-03 18:53:01] Success: raju_mphilele2026@kusoed.edu.np
+[2026-02-03 18:53:05] Onboarding email sent to: merajupaudel@gmail.com
+[2026-02-03 18:53:05] Creating: saroj_mphilele2026@kusoed.edu.np (Saroj Tamang) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=sarojwaiba@gmail.com
+[2026-02-03 18:53:08] Success: saroj_mphilele2026@kusoed.edu.np
+[2026-02-03 18:53:12] Onboarding email sent to: sarojwaiba@gmail.com
+[2026-02-03 18:53:12] Creating: krishna_mphilele2026@kusoed.edu.np (Krishna Bahadur Chhetri) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=chhetrik925@gmail.com
+[2026-02-03 18:53:15] Success: krishna_mphilele2026@kusoed.edu.np
+[2026-02-03 18:53:18] Onboarding email sent to: chhetrik925@gmail.com
+[2026-02-03 18:53:18] Creating: santa_mphilele2026@kusoed.edu.np (Santa Bir Baral) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=baralsb520@gmail.com
+[2026-02-03 18:53:21] Success: santa_mphilele2026@kusoed.edu.np
+[2026-02-03 18:53:25] Onboarding email sent to: baralsb520@gmail.com
+[2026-02-03 18:53:25] Creating: arun_mphilele2026@kusoed.edu.np (Arun Kumar Karki) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=arunk012003@gmail.com
+[2026-02-03 18:53:28] Success: arun_mphilele2026@kusoed.edu.np
+[2026-02-03 18:53:31] Onboarding email sent to: arunk012003@gmail.com
+[2026-02-03 18:53:31] Creating: basudev_mphilele2026@kusoed.edu.np (Basudev Mishra) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=basu.mishra2013@gmail.com
+[2026-02-03 18:53:34] Success: basudev_mphilele2026@kusoed.edu.np
+[2026-02-03 18:53:38] Onboarding email sent to: basu.mishra2013@gmail.com
+[2026-02-03 18:53:38] Creating: kumar_mphilele2026@kusoed.edu.np (Kumar Jang Tamang) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=eltkumar2018@gmail.com
+[2026-02-03 18:53:41] Success: kumar_mphilele2026@kusoed.edu.np
+[2026-02-03 18:53:45] Onboarding email sent to: eltkumar2018@gmail.com
+[2026-02-03 18:53:45] Creating: rajesh_mphilele2026@kusoed.edu.np (Rajesh K.c) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=kcrajesh78910@gmail.com
+[2026-02-03 18:53:48] Success: rajesh_mphilele2026@kusoed.edu.np
+[2026-02-03 18:53:52] Onboarding email sent to: kcrajesh78910@gmail.com
+[2026-02-03 18:53:52] Creating: hima_mphilele2026@kusoed.edu.np (Hima Devi Neupane) OU=/Students/2026 Batch/MPhil in English Language Education 2026 Batch personal=himadevineupane@gmail.com
+[2026-02-03 18:53:55] Success: hima_mphilele2026@kusoed.edu.np
+[2026-02-03 18:53:59] Onboarding email sent to: himadevineupane@gmail.com
+[2026-02-03 18:53:59] Creating: muna_mphilsc2026@kusoed.edu.np (MUNA SHARMA) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=sharma.muna444@gmail.com
+[2026-02-03 18:54:02] Success: muna_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:54:06] Onboarding email sent to: sharma.muna444@gmail.com
+[2026-02-03 18:54:06] Creating: kalpana_mphilsc2026@kusoed.edu.np (Kalpana Acharya Neupane) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=acharya.kalpana@gmail.com
+[2026-02-03 18:54:09] Success: kalpana_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:54:13] Onboarding email sent to: acharya.kalpana@gmail.com
+[2026-02-03 18:54:13] Creating: nisha_mphilsc2026@kusoed.edu.np (Nisha Thapa) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=me1.nisha@gmail.com
+[2026-02-03 18:54:15] Success: nisha_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:54:19] Onboarding email sent to: me1.nisha@gmail.com
+[2026-02-03 18:54:19] Creating: rajina_mphilsc2026@kusoed.edu.np (Rajina Khanal Pokharel) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=razina.khanal@gmail.com
+[2026-02-03 18:54:22] Success: rajina_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:54:26] Onboarding email sent to: razina.khanal@gmail.com
+[2026-02-03 18:54:26] Creating: kanta_mphilsc2026@kusoed.edu.np (Kanta Bhusal) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=kantapandey2456@gmail.com
+[2026-02-03 18:54:29] Success: kanta_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:54:32] Onboarding email sent to: kantapandey2456@gmail.com
+[2026-02-03 18:54:32] Creating: tanka_mphilsc2026@kusoed.edu.np (Tanka Prasad Paudyal) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=tpaudel03@gmail.com
+[2026-02-03 18:54:35] Success: tanka_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:54:38] Onboarding email sent to: tpaudel03@gmail.com
+[2026-02-03 18:54:39] Creating: asmita_mphilsc2026@kusoed.edu.np (Asmita Dawadi) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=asmitadawadi3@gmail.com
+[2026-02-03 18:54:42] Success: asmita_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:54:45] Onboarding email sent to: asmitadawadi3@gmail.com
+[2026-02-03 18:54:45] Creating: rashmila_mphilsc2026@kusoed.edu.np (Rashmila Manandhar) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=rashu.sweetie@gmail.com
+[2026-02-03 18:54:48] Success: rashmila_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:54:52] Onboarding email sent to: rashu.sweetie@gmail.com
+[2026-02-03 18:54:52] Creating: sauriya_mphilsc2026@kusoed.edu.np (Sauriya Khanal) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=vikash_102@hotmail.com
+[2026-02-03 18:54:55] Success: sauriya_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:54:58] Onboarding email sent to: vikash_102@hotmail.com
+[2026-02-03 18:54:58] Creating: jyotshna_mphilsc2026@kusoed.edu.np (Jyotshna Dangi) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=dangijyotshna@gmail.com
+[2026-02-03 18:55:01] Success: jyotshna_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:55:05] Onboarding email sent to: dangijyotshna@gmail.com
+[2026-02-03 18:55:05] Creating: nityanand_mphilsc2026@kusoed.edu.np (Nityanand Kumar Shah) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=nityanandbrt@gmail.com
+[2026-02-03 18:55:08] Success: nityanand_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:55:11] Onboarding email sent to: nityanandbrt@gmail.com
+[2026-02-03 18:55:11] Creating: yubaraj_mphilsc2026@kusoed.edu.np (Yubaraj Timalsina) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=yubarajtimalsina06@gmail.com
+[2026-02-03 18:55:14] Success: yubaraj_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:55:18] Onboarding email sent to: yubarajtimalsina06@gmail.com
+[2026-02-03 18:55:18] Creating: ranjana_mphilsc2026@kusoed.edu.np (Ranjana Ghimire) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=ranjanaghimire041@gmail.com
+[2026-02-03 18:55:21] Success: ranjana_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:55:24] Onboarding email sent to: ranjanaghimire041@gmail.com
+[2026-02-03 18:55:24] Creating: bhim_mphilsc2026@kusoed.edu.np (Bhim Bahadur Tamang) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=tamangbhimbdr93@gmail.com
+[2026-02-03 18:55:28] Success: bhim_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:55:31] Onboarding email sent to: tamangbhimbdr93@gmail.com
+[2026-02-03 18:55:31] Creating: keshav_mphilsc2026@kusoed.edu.np (Keshav Raj Kaphle) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=kaphlekeshav@gmail.com
+[2026-02-03 18:55:34] Success: keshav_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:55:38] Onboarding email sent to: kaphlekeshav@gmail.com
+[2026-02-03 18:55:38] Creating: bina_mphilsc2026@kusoed.edu.np (Bina Adhikari) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=binaadhikari@tuicms.edu.np
+[2026-02-03 18:55:41] Success: bina_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:55:45] Onboarding email sent to: binaadhikari@tuicms.edu.np
+[2026-02-03 18:55:45] Creating: bishnu_mphilsc2026@kusoed.edu.np (Bishnu Prasad Bhandari) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=bishnubhandari@gsstulsipur.edu.np
+[2026-02-03 18:55:48] Success: bishnu_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:55:51] Onboarding email sent to: bishnubhandari@gsstulsipur.edu.np
+[2026-02-03 18:55:51] Creating: rashmita_mphilsc2026@kusoed.edu.np (Rashmita Thapa) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=punumunubaba@gmail.com
+[2026-02-03 18:55:54] Success: rashmita_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:55:58] Onboarding email sent to: punumunubaba@gmail.com
+[2026-02-03 18:55:58] Creating: uma_mphilsc2026@kusoed.edu.np (Uma Thapa) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=umakhadka47@gmail.com
+[2026-02-03 18:56:01] Success: uma_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:56:05] Onboarding email sent to: umakhadka47@gmail.com
+[2026-02-03 18:56:05] Creating: suchitra_mphilsc2026@kusoed.edu.np (Suchitra Lama) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=suchitra.lama.singh@gmail.com
+[2026-02-03 18:56:08] Success: suchitra_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:56:11] Onboarding email sent to: suchitra.lama.singh@gmail.com
+[2026-02-03 18:56:12] Creating: khagendra_mphilsc2026@kusoed.edu.np (Khagendra Dhamala) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=kgd2013.link@gmail.com
+[2026-02-03 18:56:15] Success: khagendra_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:56:18] Onboarding email sent to: kgd2013.link@gmail.com
+[2026-02-03 18:56:18] Creating: sunita_mphilsc2026@kusoed.edu.np (Sunita Khadka) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=chauhansunita66@gmail.com
+[2026-02-03 18:56:21] Success: sunita_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:56:24] Onboarding email sent to: chauhansunita66@gmail.com
+[2026-02-03 18:56:25] Creating: pooja_mphilsc2026@kusoed.edu.np (Pooja Bhattarai Ghimire) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=hpoojaghimire@gmail.com
+[2026-02-03 18:56:28] Success: pooja_mphilsc2026@kusoed.edu.np
+[2026-02-03 18:56:31] Onboarding email sent to: hpoojaghimire@gmail.com
+[2026-02-03 18:56:31] Creating: uma_mphilsc2026@kusoed.edu.np (Uma Pradhan) OU=/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch personal=umapradhan977@gmail.com
+[2026-02-03 18:56:32] Failed: uma_mphilsc2026@kusoed.edu.np :: Entity already exists.
+[2026-02-03 18:56:32] Creating: shara_mphilsteam2026@kusoed.edu.np (Shara Subba Jabegu) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=sarahsubba@gmail.com
+[2026-02-03 18:56:35] Success: shara_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:56:38] Onboarding email sent to: sarahsubba@gmail.com
+[2026-02-03 18:56:38] Creating: anjana_mphilsteam2026@kusoed.edu.np (Anjana Neupane) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=anjananeupane25@gmail.com
+[2026-02-03 18:56:41] Success: anjana_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:56:44] Onboarding email sent to: anjananeupane25@gmail.com
+[2026-02-03 18:56:45] Creating: ganesh_mphilsteam2026@kusoed.edu.np (Ganesh Giri) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=ganesh.giri0427@gmail.com
+[2026-02-03 18:56:47] Success: ganesh_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:56:51] Onboarding email sent to: ganesh.giri0427@gmail.com
+[2026-02-03 18:56:51] Creating: gopal_mphilsteam2026@kusoed.edu.np (Gopal Ghimire) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=ghimiregopal750@gmail.com
+[2026-02-03 18:56:54] Success: gopal_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:56:57] Onboarding email sent to: ghimiregopal750@gmail.com
+[2026-02-03 18:56:57] Creating: dilendra_mphilsteam2026@kusoed.edu.np (Dilendra Kumar Bajyoo) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=dilendra.kb2043@gmail.com
+[2026-02-03 18:57:00] Success: dilendra_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:57:04] Onboarding email sent to: dilendra.kb2043@gmail.com
+[2026-02-03 18:57:04] Creating: bishnu_mphilsteam2026@kusoed.edu.np (Bishnu Prasad Dhakal) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=bishnudhakal.vss@gmail.com
+[2026-02-03 18:57:07] Success: bishnu_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:57:11] Onboarding email sent to: bishnudhakal.vss@gmail.com
+[2026-02-03 18:57:11] Creating: bahadur_mphilsteam2026@kusoed.edu.np (Bahadur Pakhrin) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=lamapeter21@gmail.com
+[2026-02-03 18:57:14] Success: bahadur_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:57:17] Onboarding email sent to: lamapeter21@gmail.com
+[2026-02-03 18:57:18] Creating: megha_mphilsteam2026@kusoed.edu.np (Megha Raj Adhikari) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=adhikarimeghraj70@gmail.com
+[2026-02-03 18:57:20] Success: megha_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:57:24] Onboarding email sent to: adhikarimeghraj70@gmail.com
+[2026-02-03 18:57:24] Creating: jayraj_mphilsteam2026@kusoed.edu.np (Jayraj Deuja) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=jayrajdeuja@gmail.com
+[2026-02-03 18:57:27] Success: jayraj_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:57:31] Onboarding email sent to: jayrajdeuja@gmail.com
+[2026-02-03 18:57:31] Creating: gita_mphilsteam2026@kusoed.edu.np (GITA BAHADUR LAMICHHANE) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=rupaksir56@gmail.com
+[2026-02-03 18:57:34] Success: gita_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:57:37] Onboarding email sent to: rupaksir56@gmail.com
+[2026-02-03 18:57:37] Creating: ram_mphilsteam2026@kusoed.edu.np (Ram Keshar Thapa) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=ram2015@teachfornepal.org
+[2026-02-03 18:57:40] Success: ram_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:57:44] Onboarding email sent to: ram2015@teachfornepal.org
+[2026-02-03 18:57:44] Creating: min_mphilsteam2026@kusoed.edu.np (Min Kumar Rai) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=minkrai379@gmail.com
+[2026-02-03 18:57:47] Success: min_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:57:51] Onboarding email sent to: minkrai379@gmail.com
+[2026-02-03 18:57:51] Creating: shristi_mphilsteam2026@kusoed.edu.np (Shristi Paudel) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=shristipaudel11@gmail.com
+[2026-02-03 18:57:54] Success: shristi_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:57:57] Onboarding email sent to: shristipaudel11@gmail.com
+[2026-02-03 18:57:57] Creating: deepa_mphilsteam2026@kusoed.edu.np (Deepa Rai) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=raideepa1005@gmail.com
+[2026-02-03 18:58:00] Success: deepa_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:58:04] Onboarding email sent to: raideepa1005@gmail.com
+[2026-02-03 18:58:04] Creating: arun_mphilsteam2026@kusoed.edu.np (Arun Kumar Karna) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=24karatphysicist@gmail.com
+[2026-02-03 18:58:07] Success: arun_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:58:10] Onboarding email sent to: 24karatphysicist@gmail.com
+[2026-02-03 18:58:10] Creating: sitaram_mphilsteam2026@kusoed.edu.np (Sitaram Subedi) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=subedibishu45@gmail.com
+[2026-02-03 18:58:13] Success: sitaram_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:58:16] Onboarding email sent to: subedibishu45@gmail.com
+[2026-02-03 18:58:16] Creating: soma_mphilsteam2026@kusoed.edu.np (Soma Sagar Shrestha) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=shrsoma97@gmail.com
+[2026-02-03 18:58:20] Success: soma_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:58:23] Onboarding email sent to: shrsoma97@gmail.com
+[2026-02-03 18:58:23] Creating: ashmina_mphilsteam2026@kusoed.edu.np (Ashmina Raut) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=ashminaraut@gmail.com
+[2026-02-03 18:58:26] Success: ashmina_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:58:29] Onboarding email sent to: ashminaraut@gmail.com
+[2026-02-03 18:58:30] Creating: gokarna_mphilsteam2026@kusoed.edu.np (Gokarna Dhakal) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=gokarnad09@gmail.com
+[2026-02-03 18:58:32] Success: gokarna_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:58:36] Onboarding email sent to: gokarnad09@gmail.com
+[2026-02-03 18:58:36] Creating: chamanath_mphilsteam2026@kusoed.edu.np (CHAMANATH ADHIKARI) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=mantaranga@gmail.com
+[2026-02-03 18:58:39] Success: chamanath_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:58:42] Onboarding email sent to: mantaranga@gmail.com
+[2026-02-03 18:58:42] Creating: chhatrapati_mphilsteam2026@kusoed.edu.np (Chhatrapati Singh) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=chhatrapatisingh06@gmail.com
+[2026-02-03 18:58:45] Success: chhatrapati_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:58:49] Onboarding email sent to: chhatrapatisingh06@gmail.com
+[2026-02-03 18:58:49] Creating: dhan_mphilsteam2026@kusoed.edu.np (Dhan Dhoj Lama) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=dhandhojlama@gmail.com
+[2026-02-03 18:58:52] Success: dhan_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:58:55] Onboarding email sent to: dhandhojlama@gmail.com
+[2026-02-03 18:58:55] Creating: jayandra_mphilsteam2026@kusoed.edu.np (Jayandra Raj Shrestha) OU=/Students/2026 Batch/MPhil in STEAM Education 2026 Batch personal=jayandra@gmail.com
+[2026-02-03 18:58:58] Success: jayandra_mphilsteam2026@kusoed.edu.np
+[2026-02-03 18:59:01] Onboarding email sent to: jayandra@gmail.com
+[2026-02-03 18:59:01] Creating: buddi_phdds2026@kusoed.edu.np (Buddi Kumar Shrestha) OU=Students/2026 Batch/PhD 2026 Batch personal=bkshrestha18@gmail.com
+[2026-02-03 18:59:02] Failed: buddi_phdds2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:02] Creating: jayakrishna_phdds2026@kusoed.edu.np (Jayakrishna Upadhyay) OU=Students/2026 Batch/PhD 2026 Batch personal=jupadhyay2016@gmail.com
+[2026-02-03 18:59:03] Failed: jayakrishna_phdds2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:03] Creating: bikash_phdds2026@kusoed.edu.np (Bikash Ghaju) OU=Students/2026 Batch/PhD 2026 Batch personal=praindikas@gmail.com
+[2026-02-03 18:59:03] Failed: bikash_phdds2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:03] Creating: minju_phdecd2026@kusoed.edu.np (Minju Shobha Chitrakar) OU=Students/2026 Batch/PhD 2026 Batch personal=minjuchitrakar@gmail.com
+[2026-02-03 18:59:04] Failed: minju_phdecd2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:04] Creating: meera_phdecd2026@kusoed.edu.np (Meera Sharma) OU=Students/2026 Batch/PhD 2026 Batch personal=miraz.srma@gmail.com
+[2026-02-03 18:59:05] Failed: meera_phdecd2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:05] Creating: shreeya_phdecd2026@kusoed.edu.np (Shreeya Shah Basnyat) OU=Students/2026 Batch/PhD 2026 Batch personal=Shreyabasnyat2024@gmail.com
+[2026-02-03 18:59:05] Failed: shreeya_phdecd2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:05] Creating: pratibha_phdecd2026@kusoed.edu.np (Pratibha Chaudhary) OU=Students/2026 Batch/PhD 2026 Batch personal=pratibhachau@gmail.com
+[2026-02-03 18:59:06] Failed: pratibha_phdecd2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:06] Creating: sanju_phdel2026@kusoed.edu.np (Sanju Khadka) OU=Students/2026 Batch/PhD 2026 Batch personal=sksanzu@gmail.com
+[2026-02-03 18:59:07] Failed: sanju_phdel2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:07] Creating: chandra_phdel2026@kusoed.edu.np (CHANDRA KANTA BHUSAL) OU=Students/2026 Batch/PhD 2026 Batch personal=ckbhusal033@gmail.com
+[2026-02-03 18:59:07] Failed: chandra_phdel2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:07] Creating: sushil_phdel2026@kusoed.edu.np (Sushil Upreti) OU=Students/2026 Batch/PhD 2026 Batch personal=sushil.upreti@gmail.com
+[2026-02-03 18:59:08] Failed: sushil_phdel2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:08] Creating: raj_phdel2026@kusoed.edu.np (Raj Kumar Yonjon) OU=Students/2026 Batch/PhD 2026 Batch personal=rajkumar.yonjon25@gmail.com
+[2026-02-03 18:59:09] Failed: raj_phdel2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:09] Creating: mukunda_phdel2026@kusoed.edu.np (MUKUNDA KUMAR GIRI) OU=Students/2026 Batch/PhD 2026 Batch personal=mukundagirisir@gmail.com
+[2026-02-03 18:59:10] Failed: mukunda_phdel2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:10] Creating: ashok_phdele2026@kusoed.edu.np (Ashok Pandey) OU=Students/2026 Batch/PhD 2026 Batch personal=ashokpandeyap.ap@gmail.com
+[2026-02-03 18:59:10] Failed: ashok_phdele2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:10] Creating: praveen_phdele2026@kusoed.edu.np (Praveen Darai) OU=Students/2026 Batch/PhD 2026 Batch personal=pdgkashi123@gmail.com
+[2026-02-03 18:59:11] Failed: praveen_phdele2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:11] Creating: yasoda_phdele2026@kusoed.edu.np (Yasoda Tiwari) OU=Students/2026 Batch/PhD 2026 Batch personal=tiwariyasoda@gmail.com
+[2026-02-03 18:59:12] Failed: yasoda_phdele2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:12] Creating: ramesh_phdscw2026@kusoed.edu.np (Ramesh Babu Regmi) OU=Students/2026 Batch/PhD 2026 Batch personal=rameshregmi.gorkha@gmail.com
+[2026-02-03 18:59:12] Failed: ramesh_phdscw2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:12] Creating: raji_phdscw2026@kusoed.edu.np (Raji Manjari Pokhrel) OU=Students/2026 Batch/PhD 2026 Batch personal=manjariraji@gmail.com
+[2026-02-03 18:59:13] Failed: raji_phdscw2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:13] Creating: yukta_phdscw2026@kusoed.edu.np (Yukta Narayan Aryal) OU=Students/2026 Batch/PhD 2026 Batch personal=aryalyukta1@gmail.com
+[2026-02-03 18:59:14] Failed: yukta_phdscw2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:14] Creating: shrijana_phdscw2026@kusoed.edu.np (Shrijana Satyal) OU=Students/2026 Batch/PhD 2026 Batch personal=shrijana.satyal@gmail.com
+[2026-02-03 18:59:14] Failed: shrijana_phdscw2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:14] Creating: bhupendra_phdsteam2026@kusoed.edu.np (Bhupendra Chaulagain) OU=Students/2026 Batch/PhD 2026 Batch personal=bhupendra.chaulagain34755@gmail.com
+[2026-02-03 18:59:15] Failed: bhupendra_phdsteam2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:15] Creating: samiksha_phdsteam2026@kusoed.edu.np (Samiksha Agrawal) OU=Students/2026 Batch/PhD 2026 Batch personal=agrawalsamiksha9@gmail.com
+[2026-02-03 18:59:16] Failed: samiksha_phdsteam2026@kusoed.edu.np :: Invalid Input: INVALID_OU_ID
+[2026-02-03 18:59:16] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-03 19:12:26] ----
+[2026-02-03 19:12:26] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-03 19:12:26] Service account client_id: 110970719416941316987
+[2026-02-03 19:12:26] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-03 19:12:26] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-03 19:12:26] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-03 19:12:26] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-03 19:12:26] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-03 19:12:26] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-03 19:12:27] Got Directory token.
+[2026-02-03 19:12:27] Reading input CSV: input.csv
+[2026-02-03 19:12:27] Creating: buddi_phdds2026@kusoed.edu.np (Buddi Kumar Shrestha) OU=/Students/2026 Batch/PhD 2026 Batch personal=bkshrestha18@gmail.com
+[2026-02-03 19:12:30] Success: buddi_phdds2026@kusoed.edu.np
+[2026-02-03 19:12:34] Onboarding email sent to: bkshrestha18@gmail.com
+[2026-02-03 19:12:34] Creating: jayakrishna_phdds2026@kusoed.edu.np (Jayakrishna Upadhyay) OU=/Students/2026 Batch/PhD 2026 Batch personal=jupadhyay2016@gmail.com
+[2026-02-03 19:12:37] Success: jayakrishna_phdds2026@kusoed.edu.np
+[2026-02-03 19:12:41] Onboarding email sent to: jupadhyay2016@gmail.com
+[2026-02-03 19:12:41] Creating: bikash_phdds2026@kusoed.edu.np (Bikash Ghaju) OU=/Students/2026 Batch/PhD 2026 Batch personal=praindikas@gmail.com
+[2026-02-03 19:12:45] Success: bikash_phdds2026@kusoed.edu.np
+[2026-02-03 19:12:48] Onboarding email sent to: praindikas@gmail.com
+[2026-02-03 19:12:48] Creating: minju_phdecd2026@kusoed.edu.np (Minju Shobha Chitrakar) OU=/Students/2026 Batch/PhD 2026 Batch personal=minjuchitrakar@gmail.com
+[2026-02-03 19:12:52] Success: minju_phdecd2026@kusoed.edu.np
+[2026-02-03 19:12:55] Onboarding email sent to: minjuchitrakar@gmail.com
+[2026-02-03 19:12:55] Creating: meera_phdecd2026@kusoed.edu.np (Meera Sharma) OU=/Students/2026 Batch/PhD 2026 Batch personal=miraz.srma@gmail.com
+[2026-02-03 19:12:58] Success: meera_phdecd2026@kusoed.edu.np
+[2026-02-03 19:13:02] Onboarding email sent to: miraz.srma@gmail.com
+[2026-02-03 19:13:02] Creating: shreeya_phdecd2026@kusoed.edu.np (Shreeya Shah Basnyat) OU=/Students/2026 Batch/PhD 2026 Batch personal=Shreyabasnyat2024@gmail.com
+[2026-02-03 19:13:05] Success: shreeya_phdecd2026@kusoed.edu.np
+[2026-02-03 19:13:09] Onboarding email sent to: Shreyabasnyat2024@gmail.com
+[2026-02-03 19:13:09] Creating: pratibha_phdecd2026@kusoed.edu.np (Pratibha Chaudhary) OU=/Students/2026 Batch/PhD 2026 Batch personal=pratibhachau@gmail.com
+[2026-02-03 19:13:12] Success: pratibha_phdecd2026@kusoed.edu.np
+[2026-02-03 19:13:16] Onboarding email sent to: pratibhachau@gmail.com
+[2026-02-03 19:13:16] Creating: sanju_phdel2026@kusoed.edu.np (Sanju Khadka) OU=/Students/2026 Batch/PhD 2026 Batch personal=sksanzu@gmail.com
+[2026-02-03 19:13:19] Success: sanju_phdel2026@kusoed.edu.np
+[2026-02-03 19:13:22] Onboarding email sent to: sksanzu@gmail.com
+[2026-02-03 19:13:22] Creating: chandra_phdel2026@kusoed.edu.np (CHANDRA KANTA BHUSAL) OU=/Students/2026 Batch/PhD 2026 Batch personal=ckbhusal033@gmail.com
+[2026-02-03 19:13:26] Success: chandra_phdel2026@kusoed.edu.np
+[2026-02-03 19:13:29] Onboarding email sent to: ckbhusal033@gmail.com
+[2026-02-03 19:13:29] Creating: sushil_phdel2026@kusoed.edu.np (Sushil Upreti) OU=/Students/2026 Batch/PhD 2026 Batch personal=sushil.upreti@gmail.com
+[2026-02-03 19:13:33] Success: sushil_phdel2026@kusoed.edu.np
+[2026-02-03 19:13:36] Onboarding email sent to: sushil.upreti@gmail.com
+[2026-02-03 19:13:36] Creating: raj_phdel2026@kusoed.edu.np (Raj Kumar Yonjon) OU=/Students/2026 Batch/PhD 2026 Batch personal=rajkumar.yonjon25@gmail.com
+[2026-02-03 19:13:39] Success: raj_phdel2026@kusoed.edu.np
+[2026-02-03 19:13:42] Onboarding email sent to: rajkumar.yonjon25@gmail.com
+[2026-02-03 19:13:43] Creating: mukunda_phdel2026@kusoed.edu.np (MUKUNDA KUMAR GIRI) OU=/Students/2026 Batch/PhD 2026 Batch personal=mukundagirisir@gmail.com
+[2026-02-03 19:13:46] Success: mukunda_phdel2026@kusoed.edu.np
+[2026-02-03 19:13:49] Onboarding email sent to: mukundagirisir@gmail.com
+[2026-02-03 19:13:49] Creating: ashok_phdele2026@kusoed.edu.np (Ashok Pandey) OU=/Students/2026 Batch/PhD 2026 Batch personal=ashokpandeyap.ap@gmail.com
+[2026-02-03 19:13:52] Success: ashok_phdele2026@kusoed.edu.np
+[2026-02-03 19:13:55] Onboarding email sent to: ashokpandeyap.ap@gmail.com
+[2026-02-03 19:13:55] Creating: praveen_phdele2026@kusoed.edu.np (Praveen Darai) OU=/Students/2026 Batch/PhD 2026 Batch personal=pdgkashi123@gmail.com
+[2026-02-03 19:13:58] Success: praveen_phdele2026@kusoed.edu.np
+[2026-02-03 19:14:02] Onboarding email sent to: pdgkashi123@gmail.com
+[2026-02-03 19:14:02] Creating: yasoda_phdele2026@kusoed.edu.np (Yasoda Tiwari) OU=/Students/2026 Batch/PhD 2026 Batch personal=tiwariyasoda@gmail.com
+[2026-02-03 19:14:04] Success: yasoda_phdele2026@kusoed.edu.np
+[2026-02-03 19:14:08] Onboarding email sent to: tiwariyasoda@gmail.com
+[2026-02-03 19:14:08] Creating: ramesh_phdscw2026@kusoed.edu.np (Ramesh Babu Regmi) OU=/Students/2026 Batch/PhD 2026 Batch personal=rameshregmi.gorkha@gmail.com
+[2026-02-03 19:14:11] Success: ramesh_phdscw2026@kusoed.edu.np
+[2026-02-03 19:14:14] Onboarding email sent to: rameshregmi.gorkha@gmail.com
+[2026-02-03 19:14:15] Creating: raji_phdscw2026@kusoed.edu.np (Raji Manjari Pokhrel) OU=/Students/2026 Batch/PhD 2026 Batch personal=manjariraji@gmail.com
+[2026-02-03 19:14:17] Success: raji_phdscw2026@kusoed.edu.np
+[2026-02-03 19:14:21] Onboarding email sent to: manjariraji@gmail.com
+[2026-02-03 19:14:21] Creating: yukta_phdscw2026@kusoed.edu.np (Yukta Narayan Aryal) OU=/Students/2026 Batch/PhD 2026 Batch personal=aryalyukta1@gmail.com
+[2026-02-03 19:14:24] Success: yukta_phdscw2026@kusoed.edu.np
+[2026-02-03 19:14:27] Onboarding email sent to: aryalyukta1@gmail.com
+[2026-02-03 19:14:27] Creating: shrijana_phdscw2026@kusoed.edu.np (Shrijana Satyal) OU=/Students/2026 Batch/PhD 2026 Batch personal=shrijana.satyal@gmail.com
+[2026-02-03 19:14:30] Success: shrijana_phdscw2026@kusoed.edu.np
+[2026-02-03 19:14:34] Onboarding email sent to: shrijana.satyal@gmail.com
+[2026-02-03 19:14:34] Creating: bhupendra_phdsteam2026@kusoed.edu.np (Bhupendra Chaulagain) OU=/Students/2026 Batch/PhD 2026 Batch personal=bhupendra.chaulagain34755@gmail.com
+[2026-02-03 19:14:37] Success: bhupendra_phdsteam2026@kusoed.edu.np
+[2026-02-03 19:14:40] Onboarding email sent to: bhupendra.chaulagain34755@gmail.com
+[2026-02-03 19:14:40] Creating: samiksha_phdsteam2026@kusoed.edu.np (Samiksha Agrawal) OU=/Students/2026 Batch/PhD 2026 Batch personal=agrawalsamiksha9@gmail.com
+[2026-02-03 19:14:43] Success: samiksha_phdsteam2026@kusoed.edu.np
+[2026-02-03 19:14:46] Onboarding email sent to: agrawalsamiksha9@gmail.com
+[2026-02-03 19:14:46] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-04 13:20:13] ----
+[2026-02-04 13:20:13] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-04 13:20:13] Service account client_id: 110970719416941316987
+[2026-02-04 13:20:13] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-04 13:20:13] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-04 13:20:13] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-04 13:20:13] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-04 13:20:13] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-04 13:20:13] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-04 13:20:14] Got Directory token.
+[2026-02-04 13:20:14] Reading input CSV: input.csv
+[2026-02-04 13:20:14] Creating: reetu_mphilecd2026@kusoed.edu.np (Reetu Maharjan) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=reetusresta@gmail.com
+[2026-02-04 13:20:17] Success: reetu_mphilecd2026@kusoed.edu.np
+[2026-02-04 13:20:23] Onboarding email sent to: reetusresta@gmail.com
+[2026-02-04 13:20:23] Creating: basanta_mphilecd2026@kusoed.edu.np (Basanta Bahadur Pun Magar) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=basant.edu.np@gmail.com
+[2026-02-04 13:20:26] Success: basanta_mphilecd2026@kusoed.edu.np
+[2026-02-04 13:20:30] Onboarding email sent to: basant.edu.np@gmail.com
+[2026-02-04 13:20:30] Creating: hem_mphilds2026@kusoed.edu.np (Hem Bahadur Moktan) OU=/Students/2026 Batch/MPhil in Development Studies 2026 Batch personal=tmghem@gmail.com
+[2026-02-04 13:20:33] Success: hem_mphilds2026@kusoed.edu.np
+[2026-02-04 13:20:38] Onboarding email sent to: tmghem@gmail.com
+[2026-02-04 13:20:38] Creating: pragyan_mphilecd2026@kusoed.edu.np (Pragyan Pyakurel) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=pragyanpyakurel33@gmail.com
+[2026-02-04 13:20:40] Success: pragyan_mphilecd2026@kusoed.edu.np
+[2026-02-04 13:20:44] Onboarding email sent to: pragyanpyakurel33@gmail.com
+[2026-02-04 13:20:44] Creating: prerana_mphilecd2026@kusoed.edu.np (Prerana Adhikari) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=prerana.adhikari81@gmail.com
+[2026-02-04 13:20:47] Success: prerana_mphilecd2026@kusoed.edu.np
+[2026-02-04 13:20:50] Onboarding email sent to: prerana.adhikari81@gmail.com
+[2026-02-04 13:20:50] Creating: prem_mphilecd2026@kusoed.edu.np (Prem Kumari Thapa) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=mayathapa66@gmail.com
+[2026-02-04 13:20:53] Success: prem_mphilecd2026@kusoed.edu.np
+[2026-02-04 13:20:56] Onboarding email sent to: mayathapa66@gmail.com
+[2026-02-04 13:20:56] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-04 13:23:45] ----
+[2026-02-04 13:23:45] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-04 13:23:45] Service account client_id: 110970719416941316987
+[2026-02-04 13:23:45] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-04 13:23:45] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-04 13:23:45] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-04 13:23:45] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-04 13:23:45] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-04 13:23:45] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-04 13:23:45] Got Directory token.
+[2026-02-04 13:23:45] Reading input CSV: input.csv
+[2026-02-04 13:23:45] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-04 13:24:56] ----
+[2026-02-04 13:24:56] SA JSON: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/service_account.json
+[2026-02-04 13:24:56] Service account client_id: 110970719416941316987
+[2026-02-04 13:24:56] Delegated admin (Directory): bhandaribbk@kusoed.edu.np
+[2026-02-04 13:24:56] SMTP From: KUSOED IT Support <emis.notifier@kusoed.edu.np>
+[2026-02-04 13:24:56] SMTP User: emis.notifier@kusoed.edu.np
+[2026-02-04 13:24:56] Template: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/email_templates/kusoed_account_created.txt
+[2026-02-04 13:24:56] Output CSV: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv
+[2026-02-04 13:24:56] Log file: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/gw_create_users.log
+[2026-02-04 13:24:56] Got Directory token.
+[2026-02-04 13:24:57] Creating: sangita_mphilecd2026@kusoed.edu.np (Sangita Upreti) OU=/Students/2026 Batch/MPhil in ECD 2026 Batch personal=sangitaupreti7288@gmail.com
+[2026-02-04 13:25:00] Success: sangita_mphilecd2026@kusoed.edu.np
+[2026-02-04 13:25:03] Onboarding email sent to: sangitaupreti7288@gmail.com
+[2026-02-04 13:25:03] Done. CSV updated: /Users/anamolsapkota/dev/BASH_SCRIPTS/Google-Workspace/users_created.csv

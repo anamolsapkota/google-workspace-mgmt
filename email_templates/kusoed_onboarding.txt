@@ -1,0 +1,24 @@
+Subject: Kathmandu University School of Education (KUSOED) – Your Google Workspace Account
+
+Hello {{FIRST_NAME}} {{LAST_NAME}},
+
+Your Kathmandu University School of Education (KUSOED) Google Workspace account has been created.
+
+Organizational Email (Username): {{PRIMARY_EMAIL}}
+
+How to sign in:
+1) Go to https://mail.google.com/ (or https://accounts.google.com/)
+2) Sign in with the email address above.
+3) You will be prompted to change your password during first login. Please set a strong password immediately.
+
+Security steps (recommended):
+- Set recovery phone/email in your Google Account settings
+- Review security at https://myaccount.google.com/security
+
+Important:
+- Do not share your password with anyone (including IT staff).
+- If you suspect suspicious activity, contact KUSOED IT Support immediately.
+
+Regards,
+KUSOED IT Support
+Kathmandu University School of Education

@@ -1,1 +1,6 @@
 service_account.json
+.env
+.env.local
+users_created.csv
+users_deleted.csv
+*.log

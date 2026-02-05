@@ -1,4 +1,168 @@
 primary_email,first_name,last_name,org_unit,personal_email,password,created_at,status,message
-testuser1@kusoed.edu.np,Test,User1,/Students,test1@gmail.com,Ui25LIzc5awacH6i,2026-02-01 13:16:48,CREATED,ok
-testuser2@kusoed.edu.np,Test,User2,/Students,test2@gmail.com,Dz8amEYSV5jxETn2,2026-02-01 13:16:52,CREATED,ok
-anamol@kusoed.edu.np,Anamol,Test,/Students,anamolsapkota@gmail.com,Ig5VOrqu3vZP3NGn,2026-02-01 13:38:24,CREATED,ok
+anamol@kusoed.edu.np,Anamol,Test,/Students,anamolsapkota@gmail.com,Qz8hLmLP6IfAGqH4,2026-02-03 18:38:40,CREATED,ok
+krishna_mphilds2026@kusoed.edu.np,Krishna,Ghale,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,krishnaghale15@gmail.com,Kd2CYQJPvWgBBdNp,2026-02-03 18:43:39,CREATED,ok
+ram_mphilds2026@kusoed.edu.np,Ram,Sharan Gurung,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,rubengurung3@gmail.com,Ju2cMO3GzA6G1zAa,2026-02-03 18:43:46,CREATED,ok
+man_mphilds2026@kusoed.edu.np,Man,Bahadur Kunwar,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,mbk.nepal@gmail.com,Ly7Ihs7dp5OCTRqj,2026-02-03 18:43:52,CREATED,ok
+shak_mphilds2026@kusoed.edu.np,Shak,Bahadur Budhathoki,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,shakbahadur.magar@gmail.com,Up44SbUgMEfnxFvV,2026-02-03 18:43:58,CREATED,ok
+gita_mphilds2026@kusoed.edu.np,Gita,Samba Limbu,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,gitalimbu@gmail.com,Lm0j69BdAUGRMp8i,2026-02-03 18:44:05,CREATED,ok
+rewati_mphilds2026@kusoed.edu.np,Rewati,Prasad Parajuli,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,rewati.parajuli@gmail.com,Fj2MNGZ2PpiYzSOz,2026-02-03 18:44:11,CREATED,ok
+ashmita_mphilds2026@kusoed.edu.np,Ashmita,Ojha,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,ashmita1121@gmail.com,Qz5IetoiJFIjuQfi,2026-02-03 18:44:18,CREATED,ok
+punita_mphilds2026@kusoed.edu.np,Punita,Chaudhari,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,punitadang@gmail.com,Jk7Dy5Wpa74CgfAA,2026-02-03 18:44:24,CREATED,ok
+kumar_mphilds2026@kusoed.edu.np,Kumar,Prasad Khatiwada,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,K.khatiwada014@gmail.com,Dn3f2KKsmTNZzuQH,2026-02-03 18:44:31,CREATED,ok
+nickesh_mphilds2026@kusoed.edu.np,Nickesh,Kumar Sah,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,nickesh.shah2020@gmail.com,Ne10Dq5pLGwfr6dI,2026-02-03 18:44:37,CREATED,ok
+narayan_mphilds2026@kusoed.edu.np,Narayan,Kumar Shrestha,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,info@narayankumarshrestha.com.np,Xf8sQ06UiP5eeHKu,2026-02-03 18:44:43,CREATED,ok
+pasma_mphilds2026@kusoed.edu.np,Pasma,Dahal,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,pasmadahal@live.com,Wj19q9ssEEponwcY,2026-02-03 18:44:49,CREATED,ok
+lal_mphilds2026@kusoed.edu.np,Lal,Bahadur Khadka,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,lbkhadka2005@gmail.com,Yr060RifPgR7qFIS,2026-02-03 18:44:56,CREATED,ok
+niva_mphilds2026@kusoed.edu.np,NIVA,SHAKYA,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,shakyaniva25@gmail.com,Sd2WF7ZZUzyAYGvW,2026-02-03 18:45:02,CREATED,ok
+dinesh_mphilds2026@kusoed.edu.np,Dinesh,Bhandari,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,diptinbro@gmail.com,Su4VkOLvm4SIpDnD,2026-02-03 18:45:09,CREATED,ok
+sanil_mphilds2026@kusoed.edu.np,Sanil,Shrestha,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,sanil.4281222@gmail.com,Zo8bWeXfHB3AFp3a,2026-02-03 18:45:16,CREATED,ok
+ramesh_mphilds2026@kusoed.edu.np,Ramesh,Thing,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,lamaramesh@gmail.com,Ow3iFxYuN4YYnvnJ,2026-02-03 18:45:22,CREATED,ok
+bishnu_mphilds2026@kusoed.edu.np,Bishnu,Aryal,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,aryalbishnu715@gmail.com,Rz5ZEtU3ksMcjotk,2026-02-03 18:45:29,CREATED,ok
+upendra_mphilds2026@kusoed.edu.np,Upendra,Man Shrestha,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,upendrashrestha16@gmail.com,Dq2H2MjN3IbVVQuV,2026-02-03 18:45:35,CREATED,ok
+farida_mphilds2026@kusoed.edu.np,Farida,Khan,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,farida.nepal1@gmail.com,Cf08eWY0FredcLJZ,2026-02-03 18:45:42,CREATED,ok
+sushma_mphilds2026@kusoed.edu.np,Sushma,Rai,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,oasurai@gmail.com,Cp44tVxD5p9M2ScA,2026-02-03 18:45:49,CREATED,ok
+ratan_mphilds2026@kusoed.edu.np,Ratan,Bahadur Budhathoki,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,ratannewah@gmail.com,Ml6cQ8mQyJiu6Qwb,2026-02-03 18:45:55,CREATED,ok
+prabha_mphilds2026@kusoed.edu.np,Prabha,Paudyal,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,prabhapaudyal1994@gmail.com,Op0wft7VKT2H9oHF,2026-02-03 18:46:02,CREATED,ok
+kamal_mphilds2026@kusoed.edu.np,Kamal,Kumar Rai,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,ittnepal25@gmail.com,Td2HJpfguFnHaSiq,2026-02-03 18:46:08,CREATED,ok
+bishwas_mphilds2026@kusoed.edu.np,Bishwas,Dhakal,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,bishwassdhakal@gmail.com,Vd2yjsVcvdmhSgPf,2026-02-03 18:46:15,CREATED,ok
+sapana_mphilds2026@kusoed.edu.np,Sapana,Poudel,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,sapnapoudel761@gmail.com,Jj44aRuoe5cfv84n,2026-02-03 18:46:21,CREATED,ok
+anju_mphilecd2026@kusoed.edu.np,Anju,Gautam,/Students/2026 Batch/MPhil in ECD 2026 Batch,mail.anjugautam@gmail.com,Op1QflFgmbU3ZtUK,2026-02-03 18:46:32,CREATED,ok
+roshani_mphilecd2026@kusoed.edu.np,Roshani,Paudel,/Students/2026 Batch/MPhil in ECD 2026 Batch,roshanipaudel89@gmail.com,Zm83PcVQRecwPHBL,2026-02-03 18:46:41,CREATED,ok
+uma_mphilecd2026@kusoed.edu.np,Uma,Thapa Shrestha,/Students/2026 Batch/MPhil in ECD 2026 Batch,utshrestha13@gmail.com,Ae7DPyyHeF0SuRl1,2026-02-03 18:46:47,CREATED,ok
+alisha_mphilecd2026@kusoed.edu.np,Alisha,Joshi,/Students/2026 Batch/MPhil in ECD 2026 Batch,alishajoshi134@gmail.com,Ln8ShXyXpfvcArcn,2026-02-03 18:46:54,CREATED,ok
+bina_mphilecd2026@kusoed.edu.np,Bina,Dhungana Chapagain,/Students/2026 Batch/MPhil in ECD 2026 Batch,binadhunganachapagain@gmail.com,Tb70h5ouTDHnyaXq,2026-02-03 18:47:01,CREATED,ok
+tumala_mphilecd2026@kusoed.edu.np,Tumala,Dhungana,/Students/2026 Batch/MPhil in ECD 2026 Batch,tumalasilwal@gmail.com,Bg3aflWffRCMKWzh,2026-02-03 18:47:08,CREATED,ok
+reeta_mphilecd2026@kusoed.edu.np,Reeta,Khatri,/Students/2026 Batch/MPhil in ECD 2026 Batch,294ritu@gmail.com,Zm6ceEQaMY5cRXOf,2026-02-03 18:47:15,CREATED,ok
+dipendra_mphilecd2026@kusoed.edu.np,Dipendra,Pun Magar,/Students/2026 Batch/MPhil in ECD 2026 Batch,nayanepal303@gmail.com,Yh4bUfa8Z28XGu5H,2026-02-03 18:47:22,CREATED,ok
+anushma_mphilecd2026@kusoed.edu.np,Anushma,Kadel,/Students/2026 Batch/MPhil in ECD 2026 Batch,anushmakadel@gmail.com,Rc7jeH2SaMbbirnU,2026-02-03 18:47:28,CREATED,ok
+indira_mphilecd2026@kusoed.edu.np,Indira,Basnet,/Students/2026 Batch/MPhil in ECD 2026 Batch,indirabasnetkc1@gmail.com,Wc74rosdTmj1lat5,2026-02-03 18:47:35,CREATED,ok
+sushila_mphilecd2026@kusoed.edu.np,Sushila,Shrestha,/Students/2026 Batch/MPhil in ECD 2026 Batch,susshela@gmail.com,Pg9yptAwE3AHYvsW,2026-02-03 18:47:42,CREATED,ok
+saraswati_mphilecd2026@kusoed.edu.np,Saraswati,Khadka Thapa,/Students/2026 Batch/MPhil in ECD 2026 Batch,saru21k@zohomail.com,Ok96zum71yC2gPKi,2026-02-03 18:47:48,CREATED,ok
+elisha_mphilel2026@kusoed.edu.np,Elisha,Shrestha,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,shresthaelisha05@gmail.com,Nj1R8EwZVVE8xMWn,2026-02-03 18:47:55,CREATED,ok
+anita_mphilel2026@kusoed.edu.np,Anita,Bhattarai,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,akarartcenter@gmail.com,Ba45WJhmaOCUNvRI,2026-02-03 18:48:02,CREATED,ok
+rajani_mphilel2026@kusoed.edu.np,Rajani,K.C.,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,kcrajani86@gmail.com,Vs9l3AXKRPPn9gGf,2026-02-03 18:48:09,CREATED,ok
+santosh_mphilel2026@kusoed.edu.np,Santosh,Sharma,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,sharmasantosh214@gmail.com,Ip7Srjuq50hOwgqS,2026-02-03 18:48:16,CREATED,ok
+lajita_mphilel2026@kusoed.edu.np,Lajita,Sharma Dahal,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,lajitasharmadahal@gmail.com,St61ZtdRXOHJgINW,2026-02-03 18:48:23,CREATED,ok
+monica_mphilel2026@kusoed.edu.np,Monica,Lamichhane,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,dlovelyprecious@gmail.com,Os5LP71zF3kx0rKb,2026-02-03 18:48:30,CREATED,ok
+binod_mphilel2026@kusoed.edu.np,BINOD,DULAL,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,aayanaahana2@gmail.com,Dl042j4fUKX3tlFq,2026-02-03 18:48:36,CREATED,ok
+anju_mphilel2026@kusoed.edu.np,Anju,Kumari P. Chhetri,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,chhetrianju242@gmail.com,Hc1Zt6UrEO8z6tYV,2026-02-03 18:48:43,CREATED,ok
+bijay_mphilel2026@kusoed.edu.np,Bijay,Shrestha,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,bijay.shrestha.mentor@gmail.com,Bx3rdin7ake6dp42,2026-02-03 18:48:50,CREATED,ok
+sunil_mphilel2026@kusoed.edu.np,Sunil,Devkota,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,sdevkota2014@gmail.com,Zg4OmnGiRtOz3n0l,2026-02-03 18:48:58,CREATED,ok
+leena_mphilel2026@kusoed.edu.np,LEENA,JOSHI,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,leenajoshishrestha@gmail.com,Ua07aO5MHogIC4aZ,2026-02-03 18:49:04,CREATED,ok
+sanjeev_mphilel2026@kusoed.edu.np,Sanjeev,Bhandari,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,bhandarisan@gmail.com,Vy6hbyaGMH4YMFq1,2026-02-03 18:49:11,CREATED,ok
+krishna_mphilel2026@kusoed.edu.np,Krishna,Lamsal,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,krislamsal71@gmail.com,Ad9hdfrDTmiP6Avd,2026-02-03 18:49:18,CREATED,ok
+sundar_mphilel2026@kusoed.edu.np,Sundar,Budathoki,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,springhill607@gmail.com,Qx7krY1qWVhedkVn,2026-02-03 18:49:25,CREATED,ok
+jaya_mphilel2026@kusoed.edu.np,Jaya,Bahadur Shrestha,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,jayabahadurshrestha1@gmail.com,Nf1MHMhYvJC9Rje6,2026-02-03 18:49:31,CREATED,ok
+bharat_mphilel2026@kusoed.edu.np,Bharat,Rai,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,raijasmin355@gmail.com,Ho9ccndVJGTtkEaN,2026-02-03 18:49:38,CREATED,ok
+rishab_mphilel2026@kusoed.edu.np,Rishab,Karki,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,rishab.karki.np@gmail.com,Zf3nkN3wl5Z5B7YG,2026-02-03 18:49:44,CREATED,ok
+pravin_mphilel2026@kusoed.edu.np,Pravin,Ratna Shakya,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,pravin.ratna.shakya@gmail.com,Ip5fI8xatBjsJN5i,2026-02-03 18:49:51,CREATED,ok
+chandra_mphilel2026@kusoed.edu.np,Chandra,Kumari Garbuja,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,garbujachandra@gmail.com,Yc6K4sTLtL3Mhz0v,2026-02-03 18:49:57,CREATED,ok
+nitesh_mphilel2026@kusoed.edu.np,NITESH,KUMAR SHAH,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,niteshkumarshah1989@gmail.com,Up35PSoVpM91gXuP,2026-02-03 18:50:04,CREATED,ok
+rita_mphilel2026@kusoed.edu.np,Rita,Tiwari,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,ritaswechha@gmail.com,Hq1tsw74HJGcfmnH,2026-02-03 18:50:11,CREATED,ok
+bina_mphilel2026@kusoed.edu.np,Bina,Dhakal,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,beenadhakal227@gmail.com,Lo7yHq9gyrrqUDnG,2026-02-03 18:50:17,CREATED,ok
+mal_mphilel2026@kusoed.edu.np,MAL,BAHADUR K. C. KHATRI,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,mbkc2038@gmail.com,Bj1ylEl4gAXPJl97,2026-02-03 18:50:23,CREATED,ok
+samrat_mphilel2026@kusoed.edu.np,Samrat,Maskey,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,samratmaskey1@gmail.com,Eu5xxjMOrEpC6uQn,2026-02-03 18:50:30,CREATED,ok
+sandip_mphilel2026@kusoed.edu.np,Sandip,Kumar Patel,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,sandipraut432836@gmail.com,Ko7EX3i4kvnl8sA5,2026-02-03 18:50:40,CREATED,ok
+deeksha_mphilel2026@kusoed.edu.np,Deeksha,Bhattarai,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,deekshabhattarai@gmail.com,Vb9KAa47dFuYApMV,2026-02-03 18:50:47,CREATED,ok
+rajib_mphilel2026@kusoed.edu.np,RAJIB,Shrestha,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,rawzib@gmail.com,Nb43CFdWaCbG84qw,2026-02-03 18:50:53,CREATED,ok
+ramesh_mphilel2026@kusoed.edu.np,Ramesh,Shrestha Pradhan,/Students/2026 Batch/MPhil in Educational Leadership 2026 Batch,merobuwa24082021@gmail.com,Jk3BIzAecggWdY8K,2026-02-03 18:50:59,CREATED,ok
+shiv_mphilele2026@kusoed.edu.np,Shiv,Raj Paudel,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,srpaudel1989@gmail.com,Py3rprkgJYfwcm5N,2026-02-03 18:51:06,CREATED,ok
+tshering_mphilele2026@kusoed.edu.np,TSHERING,CHODEN GURUNG,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,chodendolpo@gmail.com,Ef4rlbbMAyeVR2kN,2026-02-03 18:51:12,CREATED,ok
+gauree_mphilele2026@kusoed.edu.np,Gauree,Gyawali,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,gaurigyawali997@gmail.com,Kz6R9vhvQ0Mh9vKK,2026-02-03 18:51:19,CREATED,ok
+ram_mphilele2026@kusoed.edu.np,Ram,Prasad Bashyal,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,bashyalram16@gmail.com,Xk4wtzHnKMpsyPhn,2026-02-03 18:51:25,CREATED,ok
+rajan_mphilele2026@kusoed.edu.np,Rajan,Prasad Lamichhane,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,lamichhane.rajan77@gmail.com,Wj7zUyboRe0fvwRY,2026-02-03 18:51:31,CREATED,ok
+bishnu_mphilele2026@kusoed.edu.np,Bishnu,Karki,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,bkarki044@gmail.com,Tp3aH0BA2FZNUzcm,2026-02-03 18:51:45,FAILED,Entity already exists.
+rabin_mphilele2026@kusoed.edu.np,Rabin,Khadka,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,rabinkhadka545@gmail.com,Le0WKZCrFeNfinFC,2026-02-03 18:51:45,CREATED,ok
+jeevan_mphilele2026@kusoed.edu.np,Jeevan,Regmi,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,regmij823@gmail.com,Zx2T5rHgfPW4YcKO,2026-02-03 18:51:52,CREATED,ok
+aditya_mphilele2026@kusoed.edu.np,Aditya,G.C.,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,aditya9848178980@gmail.com,Bd5PyxQlPU3iZlJo,2026-02-03 18:51:59,CREATED,ok
+susmita_mphilele2026@kusoed.edu.np,Susmita,Giri,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,susmitagiri1991@gmail.com,Jb6wlzXMMop8GRRz,2026-02-03 18:52:06,CREATED,ok
+parmanand_mphilele2026@kusoed.edu.np,Parmanand,Bhandari,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,bhandariprama1@gmail.com,Fa3IhKgCHwTiCbP1,2026-02-03 18:52:13,CREATED,ok
+sabitra_mphilele2026@kusoed.edu.np,Sabitra,Bashyal,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,sabitrabashyal@gmail.com,Xy2CpKPUzUBQnB5e,2026-02-03 18:52:19,CREATED,ok
+samrat_mphilele2026@kusoed.edu.np,Samrat,Suman Guruwacharya,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,gsamrat.sg@gmail.com,Fy9Idp4K3wVZxH22,2026-02-03 18:52:26,CREATED,ok
+kamana_mphilele2026@kusoed.edu.np,Kamana,Pokhrel,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,kamanapokharel053@gmail.com,Ar1RvjXVnYXtRrfM,2026-02-03 18:52:33,CREATED,ok
+sabina_mphilele2026@kusoed.edu.np,Sabina,Tamang,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,sabinatmg3177@gmail.com,Dh6iCggxpQ1OjLsU,2026-02-03 18:52:39,CREATED,ok
+luna_mphilele2026@kusoed.edu.np,Luna,Koirala,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,lunakoirala12@gmail.com,Pf62lTvvQS4ApHg3,2026-02-03 18:52:46,CREATED,ok
+ishwor_mphilele2026@kusoed.edu.np,Ishwor,Prasad Kadel,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,ishwor069@gmail.com,Au5VueXW8lQTBpni,2026-02-03 18:52:53,CREATED,ok
+raju_mphilele2026@kusoed.edu.np,Raju,Paudel,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,merajupaudel@gmail.com,Tz59XtZo60Ku4ADy,2026-02-03 18:52:59,CREATED,ok
+saroj_mphilele2026@kusoed.edu.np,Saroj,Tamang,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,sarojwaiba@gmail.com,Uv6vvbgmP4FXlCw3,2026-02-03 18:53:05,CREATED,ok
+krishna_mphilele2026@kusoed.edu.np,Krishna,Bahadur Chhetri,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,chhetrik925@gmail.com,Zi4Z8rkAVOdEmD1H,2026-02-03 18:53:12,CREATED,ok
+santa_mphilele2026@kusoed.edu.np,Santa,Bir Baral,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,baralsb520@gmail.com,Qv9q9vbTv4CdXHie,2026-02-03 18:53:18,CREATED,ok
+arun_mphilele2026@kusoed.edu.np,Arun,Kumar Karki,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,arunk012003@gmail.com,Dg2Ag27RT4i0VGc4,2026-02-03 18:53:25,CREATED,ok
+basudev_mphilele2026@kusoed.edu.np,Basudev,Mishra,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,basu.mishra2013@gmail.com,Ni3yABfyG6P7kfQX,2026-02-03 18:53:31,CREATED,ok
+kumar_mphilele2026@kusoed.edu.np,Kumar,Jang Tamang,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,eltkumar2018@gmail.com,Do1Fto6EeESdSaj1,2026-02-03 18:53:38,CREATED,ok
+rajesh_mphilele2026@kusoed.edu.np,Rajesh,K.c,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,kcrajesh78910@gmail.com,Bs3iOz0GyyNMPATr,2026-02-03 18:53:45,CREATED,ok
+hima_mphilele2026@kusoed.edu.np,Hima,Devi Neupane,/Students/2026 Batch/MPhil in English Language Education 2026 Batch,himadevineupane@gmail.com,Wt9SgEKO32Hxg7LY,2026-02-03 18:53:52,CREATED,ok
+muna_mphilsc2026@kusoed.edu.np,MUNA,SHARMA,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,sharma.muna444@gmail.com,Fw9OevAPFN23BcQw,2026-02-03 18:53:59,CREATED,ok
+kalpana_mphilsc2026@kusoed.edu.np,Kalpana,Acharya Neupane,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,acharya.kalpana@gmail.com,Jc2ZjnUKdlW41rDT,2026-02-03 18:54:06,CREATED,ok
+nisha_mphilsc2026@kusoed.edu.np,Nisha,Thapa,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,me1.nisha@gmail.com,Ke4pxa7MHBMSvY0A,2026-02-03 18:54:13,CREATED,ok
+rajina_mphilsc2026@kusoed.edu.np,Rajina,Khanal Pokharel,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,razina.khanal@gmail.com,Zs3mSRgEDW9Xmlw4,2026-02-03 18:54:19,CREATED,ok
+kanta_mphilsc2026@kusoed.edu.np,Kanta,Bhusal,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,kantapandey2456@gmail.com,Je9FrjIaWLVa6tO1,2026-02-03 18:54:26,CREATED,ok
+tanka_mphilsc2026@kusoed.edu.np,Tanka,Prasad Paudyal,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,tpaudel03@gmail.com,Uy354nnhdAGoFMQn,2026-02-03 18:54:32,CREATED,ok
+asmita_mphilsc2026@kusoed.edu.np,Asmita,Dawadi,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,asmitadawadi3@gmail.com,Ex1TfnIFef0v7RqK,2026-02-03 18:54:39,CREATED,ok
+rashmila_mphilsc2026@kusoed.edu.np,Rashmila,Manandhar,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,rashu.sweetie@gmail.com,Ut5kPn959uZdmQWd,2026-02-03 18:54:45,CREATED,ok
+sauriya_mphilsc2026@kusoed.edu.np,Sauriya,Khanal,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,vikash_102@hotmail.com,Ro4sI70fzvjD4UOd,2026-02-03 18:54:52,CREATED,ok
+jyotshna_mphilsc2026@kusoed.edu.np,Jyotshna,Dangi,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,dangijyotshna@gmail.com,Xp0IwF4b82pv2Jmj,2026-02-03 18:54:58,CREATED,ok
+nityanand_mphilsc2026@kusoed.edu.np,Nityanand,Kumar Shah,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,nityanandbrt@gmail.com,Hh0yFXrURgMRQCli,2026-02-03 18:55:05,CREATED,ok
+yubaraj_mphilsc2026@kusoed.edu.np,Yubaraj,Timalsina,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,yubarajtimalsina06@gmail.com,Ud2dwxWmxUypvRdn,2026-02-03 18:55:11,CREATED,ok
+ranjana_mphilsc2026@kusoed.edu.np,Ranjana,Ghimire,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,ranjanaghimire041@gmail.com,Bo5vVvmTJQ7DrknB,2026-02-03 18:55:18,CREATED,ok
+bhim_mphilsc2026@kusoed.edu.np,Bhim,Bahadur Tamang,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,tamangbhimbdr93@gmail.com,Pg4glisqiBKm2aiy,2026-02-03 18:55:24,CREATED,ok
+keshav_mphilsc2026@kusoed.edu.np,Keshav,Raj Kaphle,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,kaphlekeshav@gmail.com,Pz1jSVq2izThIiRB,2026-02-03 18:55:31,CREATED,ok
+bina_mphilsc2026@kusoed.edu.np,Bina,Adhikari,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,binaadhikari@tuicms.edu.np,Uu9qiJFGGYFeGY4X,2026-02-03 18:55:38,CREATED,ok
+bishnu_mphilsc2026@kusoed.edu.np,Bishnu,Prasad Bhandari,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,bishnubhandari@gsstulsipur.edu.np,Ru93240ZRYmpv4HO,2026-02-03 18:55:45,CREATED,ok
+rashmita_mphilsc2026@kusoed.edu.np,Rashmita,Thapa,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,punumunubaba@gmail.com,Lb6s0bqNGlngmR3P,2026-02-03 18:55:51,CREATED,ok
+suchitra_mphilsc2026@kusoed.edu.np,Suchitra,Lama,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,suchitra.lama.singh@gmail.com,Nb0rP4K6fclcA4zZ,2026-02-03 18:56:05,CREATED,ok
+khagendra_mphilsc2026@kusoed.edu.np,Khagendra,Dhamala,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,kgd2013.link@gmail.com,Sc6tGaAhpDNWZd3x,2026-02-03 18:56:12,CREATED,ok
+sunita_mphilsc2026@kusoed.edu.np,Sunita,Khadka,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,chauhansunita66@gmail.com,Yt99o0oEFnoJIKmp,2026-02-03 18:56:18,CREATED,ok
+pooja_mphilsc2026@kusoed.edu.np,Pooja,Bhattarai Ghimire,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,hpoojaghimire@gmail.com,Hq22RGhoNwizgXmE,2026-02-03 18:56:25,CREATED,ok
+uma_mphilsc2026@kusoed.edu.np,Uma,Pradhan,/Students/2026 Batch/MPhil in School Counselling and Wellbeing 2026 Batch,umapradhan977@gmail.com,Ww9Q6iYlZBgWMWsS,2026-02-03 18:56:31,FAILED,Entity already exists.
+shara_mphilsteam2026@kusoed.edu.np,Shara,Subba Jabegu,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,sarahsubba@gmail.com,Sf2Dl16I7JPvqQBr,2026-02-03 18:56:32,CREATED,ok
+anjana_mphilsteam2026@kusoed.edu.np,Anjana,Neupane,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,anjananeupane25@gmail.com,Tp5WgVyXkX0VtVJX,2026-02-03 18:56:38,CREATED,ok
+ganesh_mphilsteam2026@kusoed.edu.np,Ganesh,Giri,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,ganesh.giri0427@gmail.com,Ny04YAznxA3Tg78c,2026-02-03 18:56:45,CREATED,ok
+gopal_mphilsteam2026@kusoed.edu.np,Gopal,Ghimire,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,ghimiregopal750@gmail.com,Zp5t9w3lIsJ66Csx,2026-02-03 18:56:51,CREATED,ok
+dilendra_mphilsteam2026@kusoed.edu.np,Dilendra,Kumar Bajyoo,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,dilendra.kb2043@gmail.com,Qc2hKDy6i07ortcM,2026-02-03 18:56:57,CREATED,ok
+bishnu_mphilsteam2026@kusoed.edu.np,Bishnu,Prasad Dhakal,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,bishnudhakal.vss@gmail.com,Yl3i3DKfcw29EXju,2026-02-03 18:57:04,CREATED,ok
+bahadur_mphilsteam2026@kusoed.edu.np,Bahadur,Pakhrin,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,lamapeter21@gmail.com,Yb1mKLyTRNe8bEQ8,2026-02-03 18:57:11,CREATED,ok
+megha_mphilsteam2026@kusoed.edu.np,Megha,Raj Adhikari,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,adhikarimeghraj70@gmail.com,On1SSp7muI8B3VO7,2026-02-03 18:57:18,CREATED,ok
+jayraj_mphilsteam2026@kusoed.edu.np,Jayraj,Deuja,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,jayrajdeuja@gmail.com,Xh6mZIzQdVdTgDH5,2026-02-03 18:57:24,CREATED,ok
+gita_mphilsteam2026@kusoed.edu.np,GITA,BAHADUR LAMICHHANE,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,rupaksir56@gmail.com,Ze2qlgdfPiqdGps2,2026-02-03 18:57:31,CREATED,ok
+ram_mphilsteam2026@kusoed.edu.np,Ram,Keshar Thapa,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,ram2015@teachfornepal.org,Ss6S0JMffevx91K7,2026-02-03 18:57:37,CREATED,ok
+min_mphilsteam2026@kusoed.edu.np,Min,Kumar Rai,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,minkrai379@gmail.com,Xx36gJcOISnes67w,2026-02-03 18:57:44,CREATED,ok
+shristi_mphilsteam2026@kusoed.edu.np,Shristi,Paudel,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,shristipaudel11@gmail.com,Ph1JLjyYhzHBgrCe,2026-02-03 18:57:51,CREATED,ok
+deepa_mphilsteam2026@kusoed.edu.np,Deepa,Rai,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,raideepa1005@gmail.com,Gp2JwKXzvQVd3hpx,2026-02-03 18:57:57,CREATED,ok
+arun_mphilsteam2026@kusoed.edu.np,Arun,Kumar Karna,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,24karatphysicist@gmail.com,Sw7BPHYiRFkQcjOw,2026-02-03 18:58:04,CREATED,ok
+sitaram_mphilsteam2026@kusoed.edu.np,Sitaram,Subedi,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,subedibishu45@gmail.com,Om1zjUIU8F3ZFRdg,2026-02-03 18:58:10,CREATED,ok
+soma_mphilsteam2026@kusoed.edu.np,Soma,Sagar Shrestha,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,shrsoma97@gmail.com,Sz8hcYv0g8HI0kJG,2026-02-03 18:58:16,CREATED,ok
+ashmina_mphilsteam2026@kusoed.edu.np,Ashmina,Raut,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,ashminaraut@gmail.com,Gp7KlDIirJP5LOim,2026-02-03 18:58:23,CREATED,ok
+gokarna_mphilsteam2026@kusoed.edu.np,Gokarna,Dhakal,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,gokarnad09@gmail.com,Ty1SC7ax6ImDK1fZ,2026-02-03 18:58:30,CREATED,ok
+chamanath_mphilsteam2026@kusoed.edu.np,CHAMANATH,ADHIKARI,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,mantaranga@gmail.com,Ad7rbiFWxt6jlGcq,2026-02-03 18:58:36,CREATED,ok
+chhatrapati_mphilsteam2026@kusoed.edu.np,Chhatrapati,Singh,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,chhatrapatisingh06@gmail.com,Wz1gzKmUdeysWPiN,2026-02-03 18:58:42,CREATED,ok
+dhan_mphilsteam2026@kusoed.edu.np,Dhan,Dhoj Lama,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,dhandhojlama@gmail.com,Wk42ecdzxXXib52B,2026-02-03 18:58:49,CREATED,ok
+jayandra_mphilsteam2026@kusoed.edu.np,Jayandra,Raj Shrestha,/Students/2026 Batch/MPhil in STEAM Education 2026 Batch,jayandra@gmail.com,Ln8PQjSHNp7xtRQY,2026-02-03 18:58:55,CREATED,ok
+buddi_phdds2026@kusoed.edu.np,Buddi,Kumar Shrestha,/Students/2026 Batch/PhD 2026 Batch,bkshrestha18@gmail.com,Cn3RdaO39uRFPIg3,2026-02-03 19:12:27,CREATED,ok
+jayakrishna_phdds2026@kusoed.edu.np,Jayakrishna,Upadhyay,/Students/2026 Batch/PhD 2026 Batch,jupadhyay2016@gmail.com,Ek23xfBufLybBWHl,2026-02-03 19:12:34,CREATED,ok
+bikash_phdds2026@kusoed.edu.np,Bikash,Ghaju,/Students/2026 Batch/PhD 2026 Batch,praindikas@gmail.com,Hv5ZpkGAszLvBqOb,2026-02-03 19:12:41,CREATED,ok
+minju_phdecd2026@kusoed.edu.np,Minju,Shobha Chitrakar,/Students/2026 Batch/PhD 2026 Batch,minjuchitrakar@gmail.com,Dh4fReL5SUjBClVK,2026-02-03 19:12:48,CREATED,ok
+meera_phdecd2026@kusoed.edu.np,Meera,Sharma,/Students/2026 Batch/PhD 2026 Batch,miraz.srma@gmail.com,Xu1vqXfcLsxM2NTz,2026-02-03 19:12:55,CREATED,ok
+shreeya_phdecd2026@kusoed.edu.np,Shreeya,Shah Basnyat,/Students/2026 Batch/PhD 2026 Batch,Shreyabasnyat2024@gmail.com,Pt4M19vEc9GU6B3c,2026-02-03 19:13:02,CREATED,ok
+pratibha_phdecd2026@kusoed.edu.np,Pratibha,Chaudhary,/Students/2026 Batch/PhD 2026 Batch,pratibhachau@gmail.com,Vt9zPAmy5tsScsTt,2026-02-03 19:13:09,CREATED,ok
+sanju_phdel2026@kusoed.edu.np,Sanju,Khadka,/Students/2026 Batch/PhD 2026 Batch,sksanzu@gmail.com,Sa3FChA32yjMRprj,2026-02-03 19:13:16,CREATED,ok
+chandra_phdel2026@kusoed.edu.np,CHANDRA,KANTA BHUSAL,/Students/2026 Batch/PhD 2026 Batch,ckbhusal033@gmail.com,Pe65y05S4kNhf3N2,2026-02-03 19:13:22,CREATED,ok
+sushil_phdel2026@kusoed.edu.np,Sushil,Upreti,/Students/2026 Batch/PhD 2026 Batch,sushil.upreti@gmail.com,Oq8EqH7K8fj3HDlL,2026-02-03 19:13:29,CREATED,ok
+raj_phdel2026@kusoed.edu.np,Raj,Kumar Yonjon,/Students/2026 Batch/PhD 2026 Batch,rajkumar.yonjon25@gmail.com,Lt5AELT6H6wVr5Rr,2026-02-03 19:13:36,CREATED,ok
+mukunda_phdel2026@kusoed.edu.np,MUKUNDA,KUMAR GIRI,/Students/2026 Batch/PhD 2026 Batch,mukundagirisir@gmail.com,Fq7p7czBNJffISY6,2026-02-03 19:13:43,CREATED,ok
+ashok_phdele2026@kusoed.edu.np,Ashok,Pandey,/Students/2026 Batch/PhD 2026 Batch,ashokpandeyap.ap@gmail.com,Qm2nusquQSZk6Q53,2026-02-03 19:13:49,CREATED,ok
+praveen_phdele2026@kusoed.edu.np,Praveen,Darai,/Students/2026 Batch/PhD 2026 Batch,pdgkashi123@gmail.com,Lg1J7KqkQlmXOUN0,2026-02-03 19:13:55,CREATED,ok
+yasoda_phdele2026@kusoed.edu.np,Yasoda,Tiwari,/Students/2026 Batch/PhD 2026 Batch,tiwariyasoda@gmail.com,Zv2nhxBF4zxAdGHO,2026-02-03 19:14:02,CREATED,ok
+ramesh_phdscw2026@kusoed.edu.np,Ramesh,Babu Regmi,/Students/2026 Batch/PhD 2026 Batch,rameshregmi.gorkha@gmail.com,Bl7wRn0PwhZIQLtn,2026-02-03 19:14:08,CREATED,ok
+raji_phdscw2026@kusoed.edu.np,Raji,Manjari Pokhrel,/Students/2026 Batch/PhD 2026 Batch,manjariraji@gmail.com,Ct5ES8tixENvqEI4,2026-02-03 19:14:15,CREATED,ok
+yukta_phdscw2026@kusoed.edu.np,Yukta,Narayan Aryal,/Students/2026 Batch/PhD 2026 Batch,aryalyukta1@gmail.com,Yl2J5x57fBklZLfh,2026-02-03 19:14:21,CREATED,ok
+shrijana_phdscw2026@kusoed.edu.np,Shrijana,Satyal,/Students/2026 Batch/PhD 2026 Batch,shrijana.satyal@gmail.com,Jg7BdVZ85ux3cOgx,2026-02-03 19:14:27,CREATED,ok
+bhupendra_phdsteam2026@kusoed.edu.np,Bhupendra,Chaulagain,/Students/2026 Batch/PhD 2026 Batch,bhupendra.chaulagain34755@gmail.com,Ps2DOA9dozu4d5MA,2026-02-03 19:14:34,CREATED,ok
+samiksha_phdsteam2026@kusoed.edu.np,Samiksha,Agrawal,/Students/2026 Batch/PhD 2026 Batch,agrawalsamiksha9@gmail.com,Rs3hsvN3OzdnB92P,2026-02-03 19:14:40,CREATED,ok
+reetu_mphilecd2026@kusoed.edu.np,Reetu,Maharjan,/Students/2026 Batch/MPhil in ECD 2026 Batch,reetusresta@gmail.com,Nt6X9ROZRoDtm9tS,2026-02-04 13:20:14,CREATED,ok
+basanta_mphilecd2026@kusoed.edu.np,Basanta,Bahadur Pun Magar,/Students/2026 Batch/MPhil in ECD 2026 Batch,basant.edu.np@gmail.com,Gx955BLC0OZSnsQc,2026-02-04 13:20:23,CREATED,ok
+hem_mphilds2026@kusoed.edu.np,Hem,Bahadur Moktan,/Students/2026 Batch/MPhil in Development Studies 2026 Batch,tmghem@gmail.com,Sv139FK5Ju6kuruR,2026-02-04 13:20:30,CREATED,ok
+pragyan_mphilecd2026@kusoed.edu.np,Pragyan,Pyakurel,/Students/2026 Batch/MPhil in ECD 2026 Batch,pragyanpyakurel33@gmail.com,Ly0sK5hL0rpq3Ylr,2026-02-04 13:20:38,CREATED,ok
+prerana_mphilecd2026@kusoed.edu.np,Prerana,Adhikari,/Students/2026 Batch/MPhil in ECD 2026 Batch,prerana.adhikari81@gmail.com,Jv8R3GjStl7V1MkE,2026-02-04 13:20:44,CREATED,ok
+prem_mphilecd2026@kusoed.edu.np,Prem,Kumari Thapa,/Students/2026 Batch/MPhil in ECD 2026 Batch,mayathapa66@gmail.com,Dd9dXNCelcBKbx6U,2026-02-04 13:20:50,CREATED,ok
+sangita_mphilecd2026@kusoed.edu.np,Sangita,Upreti,/Students/2026 Batch/MPhil in ECD 2026 Batch,sangitaupreti7288@gmail.com,Vw8KQZMzsL8EK4vC,2026-02-04 13:24:57,CREATED,ok
